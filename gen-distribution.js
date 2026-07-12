@@ -36,6 +36,8 @@ const extra = readJson('profile_extra.json')
 const releaseBase = `https://github.com/${CONFIG.githubUser}/${CONFIG.repo}/releases/download/${CONFIG.releaseTag}`
 const rawBase = `https://raw.githubusercontent.com/${CONFIG.githubUser}/${CONFIG.repo}/${CONFIG.branch}`
 const enc = (p) => p.split('/').map(encodeURIComponent).join('/')
+// GitHub Release sanitizes asset names: spaces -> '.', '+' kept. Mirror that for URLs.
+const releaseUrl = (fname) => `${releaseBase}/${encodeURIComponent(fname.replace(/ /g, '.'))}`
 
 const slug = (s) => s.replace(/\.[^.]+$/, '').replace(/[^A-Za-z0-9.+_-]/g, '_')
 
@@ -65,7 +67,7 @@ const modModules = mods.map((m) => ({
   id: `pokevillage.mods:${slug(m.name)}:1.0.0`,
   name: m.name.replace(/\.jar$/i, ''),
   type: 'FabricMod',
-  artifact: { size: m.size, MD5: m.md5, url: `${releaseBase}/${enc(m.name)}`, path: m.name },
+  artifact: { size: m.size, MD5: m.md5, url: releaseUrl(m.name), path: m.name },
 }))
 
 // ---- config/** -> File (managed, from repo raw, folder structure preserved) ----
@@ -78,7 +80,7 @@ const fileModules = extra.map((e) => {
   }
   if (e.category === 'resourcepack') {
     const fname = e.path.replace(/^resourcepacks\//, '')
-    const mod = { ...base, artifact: { size: e.size, MD5: e.md5, url: `${releaseBase}/${enc(fname)}`, path: e.path } }
+    const mod = { ...base, artifact: { size: e.size, MD5: e.md5, url: releaseUrl(fname), path: e.path } }
     if (CONFIG.optionalResourcepacks.includes(fname)) mod.required = { value: false, def: false }
     return mod
   }

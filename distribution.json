@@ -2516,7 +2516,7 @@
           "artifact": {
             "size": 14394261,
             "MD5": "d681e1bd502b58db5aeedd3898d2df6f",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Battle%20Tracks%20v1.2.zip",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Battle.Tracks.v1.2.zip",
             "path": "resourcepacks/Battle Tracks v1.2.zip"
           }
         },
@@ -2527,7 +2527,7 @@
           "artifact": {
             "size": 14108266,
             "MD5": "03cacbf0b647173ae6707cc74c10866c",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon%20Interface%20v1.6.0.zip",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon.Interface.v1.6.0.zip",
             "path": "resourcepacks/Cobblemon Interface v1.6.0.zip"
           }
         },
@@ -2549,7 +2549,7 @@
           "artifact": {
             "size": 505347807,
             "MD5": "b2098ce8510801405479d530dcfc9266",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Pokemusic-Enviroment%20v3.0%20COBLEMON.zip",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Pokemusic-Enviroment.v3.0.COBLEMON.zip",
             "path": "resourcepacks/Pokemusic-Enviroment v3.0 COBLEMON.zip"
           },
           "required": {
