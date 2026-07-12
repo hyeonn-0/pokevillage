@@ -1,878 +1,878 @@
-﻿[
-    {
-        "category":  "config",
-        "path":  "config/accessories.json5",
-        "size":  926,
-        "md5":  "2e5b394d1482402ea95eedcad8b5e87a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/appleskin.json5",
-        "size":  1327,
-        "md5":  "406b4584562fb60304a8adc824de0000"
-    },
-    {
-        "category":  "config",
-        "path":  "config/bakery.json",
-        "size":  2906,
-        "md5":  "7c9e9f8c015039143a200cdd888295ca"
-    },
-    {
-        "category":  "config",
-        "path":  "config/capture_xp.json",
-        "size":  205,
-        "md5":  "9284820ec2bbfbb7577865c6a8c76831"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cardinal-components-api.properties",
-        "size":  452,
-        "md5":  "7a5c42bb5538c774652ad99f2a3b0078"
-    },
-    {
-        "category":  "config",
-        "path":  "config/chat_heads.json5",
-        "size":  229,
-        "md5":  "582cc3f28157f02c5504e49bc7e4a9f2"
-    },
-    {
-        "category":  "config",
-        "path":  "config/chefsdelightconfig.properties",
-        "size":  379,
-        "md5":  "43c0fa0e88bf2d5a1b613c95afc0d5e3"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonchallenge-config.properties",
-        "size":  160,
-        "md5":  "a872eab4aff16a619c6d89f9293a2a39"
-    },
-    {
-        "category":  "config",
-        "path":  "config/creativecore-client.json",
-        "size":  23,
-        "md5":  "235bb114cb2741da4a4dd79c3f559c15"
-    },
-    {
-        "category":  "config",
-        "path":  "config/creativecore.json",
-        "size":  274,
-        "md5":  "a3979095f52fee66bc8624b7898d2e8e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/farmersdelight-client.json",
-        "size":  281,
-        "md5":  "57aa52c3e1378452aa4c5f34f6914f26"
-    },
-    {
-        "category":  "config",
-        "path":  "config/farmersdelight-common.json",
-        "size":  1284,
-        "md5":  "ae08a10b010e75ef62af7b07ce5a5d68"
-    },
-    {
-        "category":  "config",
-        "path":  "config/farm_and_charm.json",
-        "size":  3152,
-        "md5":  "916f465b15065edabdc980bf513dfe48"
-    },
-    {
-        "category":  "config",
-        "path":  "config/forgeconfigapiport.toml",
-        "size":  523,
-        "md5":  "80b3cd8edc58e5849bf5a7a0c48bd4ef"
-    },
-    {
-        "category":  "config",
-        "path":  "config/ftbchunks-client.snbt",
-        "size":  8321,
-        "md5":  "7111d4868624878ce894a0307acf3ec6"
-    },
-    {
-        "category":  "config",
-        "path":  "config/ftbchunks-world.snbt",
-        "size":  9334,
-        "md5":  "801ec72dc20a11d4b32d657d5519163c"
-    },
-    {
-        "category":  "config",
-        "path":  "config/ftblibrary-client.snbt",
-        "size":  1728,
-        "md5":  "cdd3f095cda8f077c848da2c2a0764aa"
-    },
-    {
-        "category":  "config",
-        "path":  "config/ftbteams-server.snbt",
-        "size":  742,
-        "md5":  "08b03234582fefc39e8170144afb1022"
-    },
-    {
-        "category":  "config",
-        "path":  "config/iris-excluded.json",
-        "size":  31,
-        "md5":  "670592b1394f12ab96d8432f14ac8dd9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/iris.properties",
-        "size":  315,
-        "md5":  "1f05af1ffb2950ad829698826cf0c85b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/lithostitched.json",
-        "size":  284,
-        "md5":  "345e5fd8f4228a78675c761850e85ba9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/meadow.json",
-        "size":  110,
-        "md5":  "8daf3da117b1970b8b695b798839d97d"
-    },
-    {
-        "category":  "config",
-        "path":  "config/modmenu.json",
-        "size":  840,
-        "md5":  "6f801fc101c146e1c993f05544858c34"
-    },
-    {
-        "category":  "config",
-        "path":  "config/MouseTweaks.cfg",
-        "size":  135,
-        "md5":  "ff577ca09e989c07c056c7cdff465be3"
-    },
-    {
-        "category":  "config",
-        "path":  "config/notenoughanimations.json",
-        "size":  3357,
-        "md5":  "3f3d7ed03466549ea2daa6c566c2fb93"
-    },
-    {
-        "category":  "config",
-        "path":  "config/rctmod-client.toml",
-        "size":  808,
-        "md5":  "bf5a428182540dd355d374132ef2fe37"
-    },
-    {
-        "category":  "config",
-        "path":  "config/rctmod-server.toml",
-        "size":  8719,
-        "md5":  "1599e1674d0e05028152aa75e8dfa867"
-    },
-    {
-        "category":  "config",
-        "path":  "config/ReactiveMusic.json5",
-        "size":  239,
-        "md5":  "d41fe461a9504918c63be2fe0934acd5"
-    },
-    {
-        "category":  "config",
-        "path":  "config/recall_beams.json",
-        "size":  0,
-        "md5":  "d41d8cd98f00b204e9800998ecf8427e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/sodium-fingerprint.json",
-        "size":  427,
-        "md5":  "2c1b281c154d61345be6f7dc2038955b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/sodium-mixins.properties",
-        "size":  258,
-        "md5":  "a5b6a84e034d60be869ae33f2dba4e2b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/sodium-options.json",
-        "size":  679,
-        "md5":  "ce71803a1bf6a3956c0e9e0c4fd1f4e8"
-    },
-    {
-        "category":  "config",
-        "path":  "config/sodiumdynamiclights-client.toml",
-        "size":  655,
-        "md5":  "1aa7ab78fb5b1f74d98a096821d7ac08"
-    },
-    {
-        "category":  "config",
-        "path":  "config/talkingheads.json5",
-        "size":  218,
-        "md5":  "92981b0cc119348102b15d604b88740b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/terrablender.toml",
-        "size":  988,
-        "md5":  "f833bc1281a0152f4e2abf27ee1ad512"
-    },
-    {
-        "category":  "config",
-        "path":  "config/terralith.json",
-        "size":  212,
-        "md5":  "4555bfc348c70b4b33ded045222d4a6a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/tim_core.json",
-        "size":  762,
-        "md5":  "4f42aacdc25dd91eddd93d479d4f10ad"
-    },
-    {
-        "category":  "config",
-        "path":  "config/toms_storage.json",
-        "size":  447,
-        "md5":  "55a14982bb4553c0d10a4954997696ec"
-    },
-    {
-        "category":  "config",
-        "path":  "config/transition.json",
-        "size":  97,
-        "md5":  "31ba5caa4bcc56c2527e5d001e4f0f07"
-    },
-    {
-        "category":  "config",
-        "path":  "config/travelersbackpack.json5",
-        "size":  11955,
-        "md5":  "eed30e5e86ee5db9e52693f4aeda86b6"
-    },
-    {
-        "category":  "config",
-        "path":  "config/trender.json",
-        "size":  47,
-        "md5":  "c449ad0a8d190858ec253ed1bc75e05d"
-    },
-    {
-        "category":  "config",
-        "path":  "config/vinery.json",
-        "size":  4692,
-        "md5":  "3651a513bb1d0983e50e20d617a6882f"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaerohud.txt",
-        "size":  123,
-        "md5":  "2f87c54b0b2e85e6a5031171284d6f31"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaeropatreon.txt",
-        "size":  0,
-        "md5":  "d41d8cd98f00b204e9800998ecf8427e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/yacl.json5",
-        "size":  250,
-        "md5":  "9378f7cef65c5208431350700cf83a11"
-    },
-    {
-        "category":  "config",
-        "path":  "config/bclib/client.json",
-        "size":  217,
-        "md5":  "0f2f6b3dfa4f13e339b6b4413ac742fa"
-    },
-    {
-        "category":  "config",
-        "path":  "config/bclib/main.json",
-        "size":  110,
-        "md5":  "12f5f549aca62847965f0e677c81c3a4"
-    },
-    {
-        "category":  "config",
-        "path":  "config/betternether/client.json",
-        "size":  228,
-        "md5":  "5dfe2cf4e1465794633b15b274fc6958"
-    },
-    {
-        "category":  "config",
-        "path":  "config/betternether/default_game_rules.json",
-        "size":  218,
-        "md5":  "100b7c1ad51d17a5d8b1bc78850427d3"
-    },
-    {
-        "category":  "config",
-        "path":  "config/betternether/world.json",
-        "size":  117,
-        "md5":  "410210d63a93a9af5fc161860c675eaa"
-    },
-    {
-        "category":  "config",
-        "path":  "config/biomesoplenty/biome_toggles.json",
-        "size":  2192,
-        "md5":  "0e4557a6478935daab47223d35c2de32"
-    },
-    {
-        "category":  "config",
-        "path":  "config/biomesoplenty/gameplay.toml",
-        "size":  109,
-        "md5":  "364a5eb0acc8cd9e66abef0d62d0a947"
-    },
-    {
-        "category":  "config",
-        "path":  "config/biomesoplenty/generation.toml",
-        "size":  521,
-        "md5":  "c55977a668ea46732d3f00a9ab10ad21"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledex/rewards.json",
-        "size":  5106,
-        "md5":  "eac38162004014ecccb7f7b443047df6"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledex/settings.json",
-        "size":  531,
-        "md5":  "06f234f20bdd4b6cdb0eb46745d0fe4e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledollars/bank.json",
-        "size":  85,
-        "md5":  "8b7ee15bb14c482d9d1962ede9708dea"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledollars/client.json",
-        "size":  39,
-        "md5":  "10dc29fe21361c8c2f0715d4b32cc18a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledollars/common.json",
-        "size":  154,
-        "md5":  "dce7739a350fbce833dee619527aa588"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobbledollars/default_shop.json",
-        "size":  5053,
-        "md5":  "74bf0674b9c55c4fec78373ef6ad1691"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemon/main.json",
-        "size":  3408,
-        "md5":  "e766eff9d190c0e56184439f1bbaeaaf"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonbattleplus/trainer_npc/presets/cobblemonbattleplus/draft_1783352773864.json",
-        "size":  4588,
-        "md5":  "510c1d64b25ee18c415f54b937b50495"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/blacklist.json5",
-        "size":  870,
-        "md5":  "e7a56e853c9e155a54137f879bacd0b8"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/client.json5",
-        "size":  978,
-        "md5":  "bd5ce18abe93e2c36a98c9e4e4ebb596"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/common.json5",
-        "size":  2036,
-        "md5":  "cbcc67a04b1051256504f16d8fffb573"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/conditions.json5",
-        "size":  459,
-        "md5":  "7cb22f08dc3d1579906a8f6e3fb5024a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_five.json5",
-        "size":  2128,
-        "md5":  "a4b1e342ad64a8bb5aea7793ebaa10c4"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_four.json5",
-        "size":  2125,
-        "md5":  "aa1c99be6d26dd45d49a1609afe984e4"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_one.json5",
-        "size":  2121,
-        "md5":  "2b18ffff7a9dc7f7314bd14b20853a59"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_seven.json5",
-        "size":  2164,
-        "md5":  "8ae00bb6477fba04692d88516e0a7381"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_six.json5",
-        "size":  2127,
-        "md5":  "03f8779cd2cd08fcbf48b3a9982c3967"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_three.json5",
-        "size":  2121,
-        "md5":  "c85d2212eda7bd93521fb3ed13603e93"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemonraiddens/tier_two.json5",
-        "size":  2121,
-        "md5":  "f8a22111629cad596727349409c99d8a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblemon_snap/storage.json",
-        "size":  600,
-        "md5":  "893635431446df5898e50ef7a3a2fe74"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblenav/client-config.json",
-        "size":  400,
-        "md5":  "08470b06df8553a0ce61018b36af3f52"
-    },
-    {
-        "category":  "config",
-        "path":  "config/cobblenav/server-config.json",
-        "size":  1095,
-        "md5":  "34159c64d9e2e1110bbf674acdbca1eb"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fabric/indigo-renderer.properties",
-        "size":  290,
-        "md5":  "fccef670ff415666df1bdd4467ee4827"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/customizablemenus.txt",
-        "size":  26,
-        "md5":  "fe5f2f91fcc0653b93634a414aa90cd5"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/custom_gui_screens.txt",
-        "size":  284,
-        "md5":  "a854b6aec45c8790ce3d365801f9fc2e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/legacy_checklist.txt",
-        "size":  42,
-        "md5":  "bc03e01c4f1bf1e24e9b86591baa512b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/options.txt",
-        "size":  4398,
-        "md5":  "21540080cc1853fc45e858015624434a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/user_variables.db",
-        "size":  23,
-        "md5":  "458e4f3f673e3fea22fb92bf76fcf912"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/assets/bg.png",
-        "size":  4160327,
-        "md5":  "d2169e9d052e5f559019acbf69ca4889"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/customization/menu_layout.txt",
-        "size":  13339,
-        "md5":  "876714f18cefa121dba7638c036b3842"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
-        "size":  198,
-        "md5":  "43a5ab1a30249caf7dafc2f7ad4b0ed9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/cherry_blossom.json",
-        "size":  9349,
-        "md5":  "90e358ee1c6bbd1d17bbcdad0a504f3d"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/cozy_campfire.json",
-        "size":  9347,
-        "md5":  "02b0cd78a482dbd7ec793e123f4c007b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/dark.json",
-        "size":  9329,
-        "md5":  "cbf30e731636c918d598f1ad9b0ea371"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/dark_high_contrast.json",
-        "size":  9359,
-        "md5":  "4b532a7a5c5ecd839e55a3c083c8bca3"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/light.json",
-        "size":  9331,
-        "md5":  "f3980d6eed1064c36d794d7b1030fd06"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/light_high_contrast.json",
-        "size":  9361,
-        "md5":  "700ff9cd0e95ac2234e0494af729226a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/pumpkin_soup.json",
-        "size":  9345,
-        "md5":  "d322c4bde872420ddeb2eaa124d0f16a"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/purple_void.json",
-        "size":  9343,
-        "md5":  "79df3b7ab7a74d55e3f5bb70cd996dea"
-    },
-    {
-        "category":  "config",
-        "path":  "config/fancymenu/ui_themes/spooky_season.json",
-        "size":  9347,
-        "md5":  "c45cc6e6bd9c4a296227e764dcf1e953"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/blacklist.json",
-        "size":  19,
-        "md5":  "78f1a39821342258f73e542d9ea40e0f"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/ingredient-list-mod-sort-order.ini",
-        "size":  442,
-        "md5":  "3a7cb5e10d38b888e023aa7bbee1e891"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/ingredient-list-type-sort-order.ini",
-        "size":  86,
-        "md5":  "a297d9637a74577adaed06e68221a8a0"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/jei-client.ini",
-        "size":  10825,
-        "md5":  "cf47ac66b4b62d92ec160bc5e8c69b03"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/jei-colors.ini",
-        "size":  1362,
-        "md5":  "2b1d073ff360c11353f0079b7539cb2e"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/jei-debug.ini",
-        "size":  1454,
-        "md5":  "b8f5e776d54844cfe84071acac178805"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/jei-mod-id-format.ini",
-        "size":  550,
-        "md5":  "a450b7e5023fe11c0d6f7238aaaf71da"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/recipe-category-sort-order.ini",
-        "size":  703,
-        "md5":  "bcbf212319d443c6f728b7490097a18f"
-    },
-    {
-        "category":  "config",
-        "path":  "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
-        "size":  211,
-        "md5":  "19eed98ed63ca9a03c52182ea6a755a9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/konkrete/locals/de_de.local",
-        "size":  369,
-        "md5":  "3aac3df2519057d2305f894c37771e30"
-    },
-    {
-        "category":  "config",
-        "path":  "config/konkrete/locals/en_us.local",
-        "size":  426,
-        "md5":  "56c7ccaa193ba73c0d5c50aff28bb807"
-    },
-    {
-        "category":  "config",
-        "path":  "config/konkrete/locals/pl_pl.local",
-        "size":  313,
-        "md5":  "c1f5aa5c2d2ac414f75f0ec3cab3b9c8"
-    },
-    {
-        "category":  "config",
-        "path":  "config/konkrete/locals/pt_br.local",
-        "size":  322,
-        "md5":  "2d055da094c115b94f0e4373a2e06ebe"
-    },
-    {
-        "category":  "config",
-        "path":  "config/mega_showdown/config.json",
-        "size":  567,
-        "md5":  "1525074d58869884e5f336332bbbac37"
-    },
-    {
-        "category":  "config",
-        "path":  "config/mythsandlegends/config.toml",
-        "size":  11563,
-        "md5":  "e42a8cc382e1b9929af6aee4a7d5cd95"
-    },
-    {
-        "category":  "config",
-        "path":  "config/mythsandlegends/debts.json",
-        "size":  2,
-        "md5":  "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/mythsandlegends/loot_tables_config.json",
-        "size":  945288,
-        "md5":  "0fbe6377765d0e26e04e54a4edf98ea2"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/main.json",
-        "size":  1224,
-        "md5":  "4513643eeee510192347ad0a06e159c4"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/moves/default_tm_moves.json",
-        "size":  30177,
-        "md5":  "3ef6b194e9062abace6adb73f70deea2"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/moves/default_tr_moves.json",
-        "size":  30177,
-        "md5":  "3ef6b194e9062abace6adb73f70deea2"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/moves/excluded_moves_from_blank_learning.json",
-        "size":  2,
-        "md5":  "d751713988987e9331980363e24189ce"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
-        "size":  2,
-        "md5":  "d751713988987e9331980363e24189ce"
-    },
-    {
-        "category":  "config",
-        "path":  "config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
-        "size":  2,
-        "md5":  "d751713988987e9331980363e24189ce"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/category-volumes.properties",
-        "size":  46,
-        "md5":  "47731f53ffef4a8a57c766a8091a5651"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/player-volumes.properties",
-        "size":  44,
-        "md5":  "881435f0ba9a0f1af1d2082d1298dcc4"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/translations.properties",
-        "size":  1182,
-        "md5":  "4af29bbbf5267fe4298e80c2e6ebca63"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/username-cache.json",
-        "size":  2,
-        "md5":  "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/voicechat-client.properties",
-        "size":  5063,
-        "md5":  "0405d3c3e5a778276f4db44f4ec95d0c"
-    },
-    {
-        "category":  "config",
-        "path":  "config/voicechat/voicechat-server.properties",
-        "size":  2830,
-        "md5":  "87405ae8dfda25c3f174993fdcd3da5b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/wover/cached.json",
-        "size":  425,
-        "md5":  "b25cfd3e4a3683d03c0668292e767f7b"
-    },
-    {
-        "category":  "config",
-        "path":  "config/wover/client.json",
-        "size":  310,
-        "md5":  "794b9deb7b8e5c0d5abd86238d896736"
-    },
-    {
-        "category":  "config",
-        "path":  "config/wover/main.json",
-        "size":  158,
-        "md5":  "e1714fff8b68268fc1e4346fe2a958c9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/lib/client.cfg",
-        "size":  26,
-        "md5":  "dd7d24d2b991f7648671c16d0a74c265"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/lib/common.cfg",
-        "size":  236,
-        "md5":  "e085e122e32132e1fa73ac927f7ece81"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/lib/profiles/default.cfg",
-        "size":  121,
-        "md5":  "e6a2491cfa99c4163942c19eb7b4c489"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/lib/server_profiles/default.cfg",
-        "size":  75,
-        "md5":  "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/client.cfg",
-        "size":  237,
-        "md5":  "007c3c38290561126c7f8ab797406109"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/common.cfg",
-        "size":  147,
-        "md5":  "48d56532be92f58e976a2d1753abdd35"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/default_radar_categories_client.json",
-        "size":  5531,
-        "md5":  "9c08ddf57ca870f128b7671da8fbd0f7"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/default_radar_categories_server.json",
-        "size":  4597,
-        "md5":  "7ffe568a308241b93166af2d45ce79c7"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/profiles/default.cfg",
-        "size":  3825,
-        "md5":  "39b36f582769dd7ea8222f60f7059302"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
-        "size":  684,
-        "md5":  "64d98932063f0be723920fbdb1de1268"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/minimap/server_profiles/default.cfg",
-        "size":  75,
-        "md5":  "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/world-map/client.cfg",
-        "size":  523,
-        "md5":  "4d8ab9ac6252be924192222be2565546"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/world-map/common.cfg",
-        "size":  141,
-        "md5":  "b5ddb993fe4200e02fec18254463b2c2"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/world-map/profiles/default.cfg",
-        "size":  1619,
-        "md5":  "21c979a028cd1efa4cc914ceca5b54b9"
-    },
-    {
-        "category":  "config",
-        "path":  "config/xaero/world-map/server_profiles/default.cfg",
-        "size":  75,
-        "md5":  "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
-    },
-    {
-        "category":  "resourcepack",
-        "path":  "resourcepacks/Battle Tracks v1.2.zip",
-        "size":  14394261,
-        "md5":  "d681e1bd502b58db5aeedd3898d2df6f"
-    },
-    {
-        "category":  "resourcepack",
-        "path":  "resourcepacks/Cobblemon Interface v1.6.0.zip",
-        "size":  14108266,
-        "md5":  "03cacbf0b647173ae6707cc74c10866c"
-    },
-    {
-        "category":  "resourcepack",
-        "path":  "resourcepacks/Cobblemotion_v1.5.1.zip",
-        "size":  3148542,
-        "md5":  "07ce9e8ea7eea6285ab0d7a939462cdf"
-    },
-    {
-        "category":  "resourcepack",
-        "path":  "resourcepacks/Pokemusic-Enviroment v3.0 COBLEMON.zip",
-        "size":  505347807,
-        "md5":  "b2098ce8510801405479d530dcfc9266"
-    },
-    {
-        "category":  "root",
-        "path":  "options.txt",
-        "size":  9211,
-        "md5":  "c36142f6422e76e1bce49caa9c35a666"
-    },
-    {
-        "category":  "root",
-        "path":  "servers.dat",
-        "size":  176,
-        "md5":  "8ec1d40b6af3407c5b8a6d500fb40d5f"
-    }
+[
+  {
+    "category": "config",
+    "path": "config/accessories.json5",
+    "size": 926,
+    "md5": "2e5b394d1482402ea95eedcad8b5e87a"
+  },
+  {
+    "category": "config",
+    "path": "config/appleskin.json5",
+    "size": 1327,
+    "md5": "406b4584562fb60304a8adc824de0000"
+  },
+  {
+    "category": "config",
+    "path": "config/bakery.json",
+    "size": 2906,
+    "md5": "7c9e9f8c015039143a200cdd888295ca"
+  },
+  {
+    "category": "config",
+    "path": "config/bclib/client.json",
+    "size": 217,
+    "md5": "0f2f6b3dfa4f13e339b6b4413ac742fa"
+  },
+  {
+    "category": "config",
+    "path": "config/bclib/main.json",
+    "size": 110,
+    "md5": "12f5f549aca62847965f0e677c81c3a4"
+  },
+  {
+    "category": "config",
+    "path": "config/betternether/client.json",
+    "size": 228,
+    "md5": "5dfe2cf4e1465794633b15b274fc6958"
+  },
+  {
+    "category": "config",
+    "path": "config/betternether/default_game_rules.json",
+    "size": 218,
+    "md5": "100b7c1ad51d17a5d8b1bc78850427d3"
+  },
+  {
+    "category": "config",
+    "path": "config/betternether/world.json",
+    "size": 117,
+    "md5": "410210d63a93a9af5fc161860c675eaa"
+  },
+  {
+    "category": "config",
+    "path": "config/biomesoplenty/biome_toggles.json",
+    "size": 2192,
+    "md5": "0e4557a6478935daab47223d35c2de32"
+  },
+  {
+    "category": "config",
+    "path": "config/biomesoplenty/gameplay.toml",
+    "size": 109,
+    "md5": "364a5eb0acc8cd9e66abef0d62d0a947"
+  },
+  {
+    "category": "config",
+    "path": "config/biomesoplenty/generation.toml",
+    "size": 521,
+    "md5": "c55977a668ea46732d3f00a9ab10ad21"
+  },
+  {
+    "category": "config",
+    "path": "config/capture_xp.json",
+    "size": 205,
+    "md5": "9284820ec2bbfbb7577865c6a8c76831"
+  },
+  {
+    "category": "config",
+    "path": "config/cardinal-components-api.properties",
+    "size": 452,
+    "md5": "7a5c42bb5538c774652ad99f2a3b0078"
+  },
+  {
+    "category": "config",
+    "path": "config/chat_heads.json5",
+    "size": 229,
+    "md5": "582cc3f28157f02c5504e49bc7e4a9f2"
+  },
+  {
+    "category": "config",
+    "path": "config/chefsdelightconfig.properties",
+    "size": 379,
+    "md5": "43c0fa0e88bf2d5a1b613c95afc0d5e3"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledex/rewards.json",
+    "size": 5106,
+    "md5": "eac38162004014ecccb7f7b443047df6"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledex/settings.json",
+    "size": 531,
+    "md5": "06f234f20bdd4b6cdb0eb46745d0fe4e"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledollars/bank.json",
+    "size": 85,
+    "md5": "8b7ee15bb14c482d9d1962ede9708dea"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledollars/client.json",
+    "size": 39,
+    "md5": "10dc29fe21361c8c2f0715d4b32cc18a"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledollars/common.json",
+    "size": 154,
+    "md5": "dce7739a350fbce833dee619527aa588"
+  },
+  {
+    "category": "config",
+    "path": "config/cobbledollars/default_shop.json",
+    "size": 5053,
+    "md5": "74bf0674b9c55c4fec78373ef6ad1691"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemon/main.json",
+    "size": 3408,
+    "md5": "e766eff9d190c0e56184439f1bbaeaaf"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonbattleplus/trainer_npc/presets/cobblemonbattleplus/draft_1783352773864.json",
+    "size": 4588,
+    "md5": "510c1d64b25ee18c415f54b937b50495"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonchallenge-config.properties",
+    "size": 160,
+    "md5": "a872eab4aff16a619c6d89f9293a2a39"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/blacklist.json5",
+    "size": 870,
+    "md5": "e7a56e853c9e155a54137f879bacd0b8"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/client.json5",
+    "size": 978,
+    "md5": "bd5ce18abe93e2c36a98c9e4e4ebb596"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/common.json5",
+    "size": 2036,
+    "md5": "cbcc67a04b1051256504f16d8fffb573"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/conditions.json5",
+    "size": 459,
+    "md5": "7cb22f08dc3d1579906a8f6e3fb5024a"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_five.json5",
+    "size": 2128,
+    "md5": "a4b1e342ad64a8bb5aea7793ebaa10c4"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_four.json5",
+    "size": 2125,
+    "md5": "aa1c99be6d26dd45d49a1609afe984e4"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_one.json5",
+    "size": 2121,
+    "md5": "2b18ffff7a9dc7f7314bd14b20853a59"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_seven.json5",
+    "size": 2164,
+    "md5": "8ae00bb6477fba04692d88516e0a7381"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_six.json5",
+    "size": 2127,
+    "md5": "03f8779cd2cd08fcbf48b3a9982c3967"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_three.json5",
+    "size": 2121,
+    "md5": "c85d2212eda7bd93521fb3ed13603e93"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemonraiddens/tier_two.json5",
+    "size": 2121,
+    "md5": "f8a22111629cad596727349409c99d8a"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblemon_snap/storage.json",
+    "size": 600,
+    "md5": "893635431446df5898e50ef7a3a2fe74"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblenav/client-config.json",
+    "size": 400,
+    "md5": "08470b06df8553a0ce61018b36af3f52"
+  },
+  {
+    "category": "config",
+    "path": "config/cobblenav/server-config.json",
+    "size": 1095,
+    "md5": "34159c64d9e2e1110bbf674acdbca1eb"
+  },
+  {
+    "category": "config",
+    "path": "config/creativecore-client.json",
+    "size": 23,
+    "md5": "235bb114cb2741da4a4dd79c3f559c15"
+  },
+  {
+    "category": "config",
+    "path": "config/creativecore.json",
+    "size": 274,
+    "md5": "a3979095f52fee66bc8624b7898d2e8e"
+  },
+  {
+    "category": "config",
+    "path": "config/fabric/indigo-renderer.properties",
+    "size": 290,
+    "md5": "fccef670ff415666df1bdd4467ee4827"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/assets/bg.png",
+    "size": 4160327,
+    "md5": "d2169e9d052e5f559019acbf69ca4889"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/customizablemenus.txt",
+    "size": 26,
+    "md5": "fe5f2f91fcc0653b93634a414aa90cd5"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/customization/menu_layout.txt",
+    "size": 13339,
+    "md5": "876714f18cefa121dba7638c036b3842"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/custom_gui_screens.txt",
+    "size": 284,
+    "md5": "a854b6aec45c8790ce3d365801f9fc2e"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+    "size": 198,
+    "md5": "43a5ab1a30249caf7dafc2f7ad4b0ed9"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/legacy_checklist.txt",
+    "size": 42,
+    "md5": "bc03e01c4f1bf1e24e9b86591baa512b"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/options.txt",
+    "size": 4398,
+    "md5": "21540080cc1853fc45e858015624434a"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+    "size": 9349,
+    "md5": "90e358ee1c6bbd1d17bbcdad0a504f3d"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+    "size": 9347,
+    "md5": "02b0cd78a482dbd7ec793e123f4c007b"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/dark.json",
+    "size": 9329,
+    "md5": "cbf30e731636c918d598f1ad9b0ea371"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+    "size": 9359,
+    "md5": "4b532a7a5c5ecd839e55a3c083c8bca3"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/light.json",
+    "size": 9331,
+    "md5": "f3980d6eed1064c36d794d7b1030fd06"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+    "size": 9361,
+    "md5": "700ff9cd0e95ac2234e0494af729226a"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+    "size": 9345,
+    "md5": "d322c4bde872420ddeb2eaa124d0f16a"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/purple_void.json",
+    "size": 9343,
+    "md5": "79df3b7ab7a74d55e3f5bb70cd996dea"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/ui_themes/spooky_season.json",
+    "size": 9347,
+    "md5": "c45cc6e6bd9c4a296227e764dcf1e953"
+  },
+  {
+    "category": "config",
+    "path": "config/fancymenu/user_variables.db",
+    "size": 23,
+    "md5": "458e4f3f673e3fea22fb92bf76fcf912"
+  },
+  {
+    "category": "config",
+    "path": "config/farmersdelight-client.json",
+    "size": 281,
+    "md5": "57aa52c3e1378452aa4c5f34f6914f26"
+  },
+  {
+    "category": "config",
+    "path": "config/farmersdelight-common.json",
+    "size": 1284,
+    "md5": "ae08a10b010e75ef62af7b07ce5a5d68"
+  },
+  {
+    "category": "config",
+    "path": "config/farm_and_charm.json",
+    "size": 3152,
+    "md5": "916f465b15065edabdc980bf513dfe48"
+  },
+  {
+    "category": "config",
+    "path": "config/forgeconfigapiport.toml",
+    "size": 523,
+    "md5": "80b3cd8edc58e5849bf5a7a0c48bd4ef"
+  },
+  {
+    "category": "config",
+    "path": "config/ftbchunks-client.snbt",
+    "size": 8321,
+    "md5": "7111d4868624878ce894a0307acf3ec6"
+  },
+  {
+    "category": "config",
+    "path": "config/ftbchunks-world.snbt",
+    "size": 9334,
+    "md5": "801ec72dc20a11d4b32d657d5519163c"
+  },
+  {
+    "category": "config",
+    "path": "config/ftblibrary-client.snbt",
+    "size": 1728,
+    "md5": "cdd3f095cda8f077c848da2c2a0764aa"
+  },
+  {
+    "category": "config",
+    "path": "config/ftbteams-server.snbt",
+    "size": 742,
+    "md5": "08b03234582fefc39e8170144afb1022"
+  },
+  {
+    "category": "config",
+    "path": "config/iris-excluded.json",
+    "size": 31,
+    "md5": "670592b1394f12ab96d8432f14ac8dd9"
+  },
+  {
+    "category": "config",
+    "path": "config/iris.properties",
+    "size": 315,
+    "md5": "1f05af1ffb2950ad829698826cf0c85b"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/blacklist.json",
+    "size": 19,
+    "md5": "78f1a39821342258f73e542d9ea40e0f"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/ingredient-list-mod-sort-order.ini",
+    "size": 442,
+    "md5": "3a7cb5e10d38b888e023aa7bbee1e891"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/ingredient-list-type-sort-order.ini",
+    "size": 86,
+    "md5": "a297d9637a74577adaed06e68221a8a0"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/jei-client.ini",
+    "size": 10825,
+    "md5": "cf47ac66b4b62d92ec160bc5e8c69b03"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/jei-colors.ini",
+    "size": 1362,
+    "md5": "2b1d073ff360c11353f0079b7539cb2e"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/jei-debug.ini",
+    "size": 1454,
+    "md5": "b8f5e776d54844cfe84071acac178805"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/jei-mod-id-format.ini",
+    "size": 550,
+    "md5": "a450b7e5023fe11c0d6f7238aaaf71da"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/recipe-category-sort-order.ini",
+    "size": 703,
+    "md5": "bcbf212319d443c6f728b7490097a18f"
+  },
+  {
+    "category": "config",
+    "path": "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
+    "size": 211,
+    "md5": "19eed98ed63ca9a03c52182ea6a755a9"
+  },
+  {
+    "category": "config",
+    "path": "config/konkrete/locals/de_de.local",
+    "size": 369,
+    "md5": "3aac3df2519057d2305f894c37771e30"
+  },
+  {
+    "category": "config",
+    "path": "config/konkrete/locals/en_us.local",
+    "size": 426,
+    "md5": "56c7ccaa193ba73c0d5c50aff28bb807"
+  },
+  {
+    "category": "config",
+    "path": "config/konkrete/locals/pl_pl.local",
+    "size": 313,
+    "md5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8"
+  },
+  {
+    "category": "config",
+    "path": "config/konkrete/locals/pt_br.local",
+    "size": 322,
+    "md5": "2d055da094c115b94f0e4373a2e06ebe"
+  },
+  {
+    "category": "config",
+    "path": "config/lithostitched.json",
+    "size": 284,
+    "md5": "345e5fd8f4228a78675c761850e85ba9"
+  },
+  {
+    "category": "config",
+    "path": "config/meadow.json",
+    "size": 110,
+    "md5": "8daf3da117b1970b8b695b798839d97d"
+  },
+  {
+    "category": "config",
+    "path": "config/mega_showdown/config.json",
+    "size": 567,
+    "md5": "1525074d58869884e5f336332bbbac37"
+  },
+  {
+    "category": "config",
+    "path": "config/modmenu.json",
+    "size": 840,
+    "md5": "6f801fc101c146e1c993f05544858c34"
+  },
+  {
+    "category": "config",
+    "path": "config/MouseTweaks.cfg",
+    "size": 135,
+    "md5": "ff577ca09e989c07c056c7cdff465be3"
+  },
+  {
+    "category": "config",
+    "path": "config/mythsandlegends/config.toml",
+    "size": 11563,
+    "md5": "e42a8cc382e1b9929af6aee4a7d5cd95"
+  },
+  {
+    "category": "config",
+    "path": "config/mythsandlegends/debts.json",
+    "size": 2,
+    "md5": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  {
+    "category": "config",
+    "path": "config/mythsandlegends/loot_tables_config.json",
+    "size": 945288,
+    "md5": "0fbe6377765d0e26e04e54a4edf98ea2"
+  },
+  {
+    "category": "config",
+    "path": "config/notenoughanimations.json",
+    "size": 3357,
+    "md5": "3f3d7ed03466549ea2daa6c566c2fb93"
+  },
+  {
+    "category": "config",
+    "path": "config/rctmod-client.toml",
+    "size": 808,
+    "md5": "bf5a428182540dd355d374132ef2fe37"
+  },
+  {
+    "category": "config",
+    "path": "config/rctmod-server.toml",
+    "size": 8719,
+    "md5": "1599e1674d0e05028152aa75e8dfa867"
+  },
+  {
+    "category": "config",
+    "path": "config/ReactiveMusic.json5",
+    "size": 239,
+    "md5": "d41fe461a9504918c63be2fe0934acd5"
+  },
+  {
+    "category": "config",
+    "path": "config/recall_beams.json",
+    "size": 0,
+    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/main.json",
+    "size": 1224,
+    "md5": "4513643eeee510192347ad0a06e159c4"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/moves/default_tm_moves.json",
+    "size": 30177,
+    "md5": "3ef6b194e9062abace6adb73f70deea2"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/moves/default_tr_moves.json",
+    "size": 30177,
+    "md5": "3ef6b194e9062abace6adb73f70deea2"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/moves/excluded_moves_from_blank_learning.json",
+    "size": 2,
+    "md5": "d751713988987e9331980363e24189ce"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
+    "size": 2,
+    "md5": "d751713988987e9331980363e24189ce"
+  },
+  {
+    "category": "config",
+    "path": "config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
+    "size": 2,
+    "md5": "d751713988987e9331980363e24189ce"
+  },
+  {
+    "category": "config",
+    "path": "config/sodium-fingerprint.json",
+    "size": 427,
+    "md5": "2c1b281c154d61345be6f7dc2038955b"
+  },
+  {
+    "category": "config",
+    "path": "config/sodium-mixins.properties",
+    "size": 258,
+    "md5": "a5b6a84e034d60be869ae33f2dba4e2b"
+  },
+  {
+    "category": "config",
+    "path": "config/sodium-options.json",
+    "size": 679,
+    "md5": "ce71803a1bf6a3956c0e9e0c4fd1f4e8"
+  },
+  {
+    "category": "config",
+    "path": "config/sodiumdynamiclights-client.toml",
+    "size": 655,
+    "md5": "1aa7ab78fb5b1f74d98a096821d7ac08"
+  },
+  {
+    "category": "config",
+    "path": "config/talkingheads.json5",
+    "size": 218,
+    "md5": "92981b0cc119348102b15d604b88740b"
+  },
+  {
+    "category": "config",
+    "path": "config/terrablender.toml",
+    "size": 988,
+    "md5": "f833bc1281a0152f4e2abf27ee1ad512"
+  },
+  {
+    "category": "config",
+    "path": "config/terralith.json",
+    "size": 212,
+    "md5": "4555bfc348c70b4b33ded045222d4a6a"
+  },
+  {
+    "category": "config",
+    "path": "config/tim_core.json",
+    "size": 762,
+    "md5": "4f42aacdc25dd91eddd93d479d4f10ad"
+  },
+  {
+    "category": "config",
+    "path": "config/toms_storage.json",
+    "size": 447,
+    "md5": "55a14982bb4553c0d10a4954997696ec"
+  },
+  {
+    "category": "config",
+    "path": "config/transition.json",
+    "size": 97,
+    "md5": "31ba5caa4bcc56c2527e5d001e4f0f07"
+  },
+  {
+    "category": "config",
+    "path": "config/travelersbackpack.json5",
+    "size": 11955,
+    "md5": "eed30e5e86ee5db9e52693f4aeda86b6"
+  },
+  {
+    "category": "config",
+    "path": "config/trender.json",
+    "size": 47,
+    "md5": "c449ad0a8d190858ec253ed1bc75e05d"
+  },
+  {
+    "category": "config",
+    "path": "config/vinery.json",
+    "size": 4692,
+    "md5": "3651a513bb1d0983e50e20d617a6882f"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/category-volumes.properties",
+    "size": 46,
+    "md5": "47731f53ffef4a8a57c766a8091a5651"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/player-volumes.properties",
+    "size": 44,
+    "md5": "881435f0ba9a0f1af1d2082d1298dcc4"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/translations.properties",
+    "size": 1182,
+    "md5": "4af29bbbf5267fe4298e80c2e6ebca63"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/username-cache.json",
+    "size": 2,
+    "md5": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/voicechat-client.properties",
+    "size": 5063,
+    "md5": "0405d3c3e5a778276f4db44f4ec95d0c"
+  },
+  {
+    "category": "config",
+    "path": "config/voicechat/voicechat-server.properties",
+    "size": 2830,
+    "md5": "87405ae8dfda25c3f174993fdcd3da5b"
+  },
+  {
+    "category": "config",
+    "path": "config/wover/cached.json",
+    "size": 425,
+    "md5": "b25cfd3e4a3683d03c0668292e767f7b"
+  },
+  {
+    "category": "config",
+    "path": "config/wover/client.json",
+    "size": 310,
+    "md5": "794b9deb7b8e5c0d5abd86238d896736"
+  },
+  {
+    "category": "config",
+    "path": "config/wover/main.json",
+    "size": 158,
+    "md5": "e1714fff8b68268fc1e4346fe2a958c9"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/lib/client.cfg",
+    "size": 26,
+    "md5": "dd7d24d2b991f7648671c16d0a74c265"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/lib/common.cfg",
+    "size": 236,
+    "md5": "e085e122e32132e1fa73ac927f7ece81"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/lib/profiles/default.cfg",
+    "size": 121,
+    "md5": "e6a2491cfa99c4163942c19eb7b4c489"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/lib/server_profiles/default.cfg",
+    "size": 75,
+    "md5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/client.cfg",
+    "size": 237,
+    "md5": "007c3c38290561126c7f8ab797406109"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/common.cfg",
+    "size": 147,
+    "md5": "48d56532be92f58e976a2d1753abdd35"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/default_radar_categories_client.json",
+    "size": 5531,
+    "md5": "9c08ddf57ca870f128b7671da8fbd0f7"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/default_radar_categories_server.json",
+    "size": 4597,
+    "md5": "7ffe568a308241b93166af2d45ce79c7"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/profiles/default.cfg",
+    "size": 3825,
+    "md5": "39b36f582769dd7ea8222f60f7059302"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+    "size": 684,
+    "md5": "64d98932063f0be723920fbdb1de1268"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/minimap/server_profiles/default.cfg",
+    "size": 75,
+    "md5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/world-map/client.cfg",
+    "size": 523,
+    "md5": "4d8ab9ac6252be924192222be2565546"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/world-map/common.cfg",
+    "size": 141,
+    "md5": "b5ddb993fe4200e02fec18254463b2c2"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/world-map/profiles/default.cfg",
+    "size": 1619,
+    "md5": "21c979a028cd1efa4cc914ceca5b54b9"
+  },
+  {
+    "category": "config",
+    "path": "config/xaero/world-map/server_profiles/default.cfg",
+    "size": 75,
+    "md5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f"
+  },
+  {
+    "category": "config",
+    "path": "config/xaerohud.txt",
+    "size": 123,
+    "md5": "2f87c54b0b2e85e6a5031171284d6f31"
+  },
+  {
+    "category": "config",
+    "path": "config/xaeropatreon.txt",
+    "size": 0,
+    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+    "category": "config",
+    "path": "config/yacl.json5",
+    "size": 250,
+    "md5": "9378f7cef65c5208431350700cf83a11"
+  },
+  {
+    "category": "resourcepack",
+    "path": "resourcepacks/Battle Tracks v1.2.zip",
+    "size": 14394261,
+    "md5": "d681e1bd502b58db5aeedd3898d2df6f"
+  },
+  {
+    "category": "resourcepack",
+    "path": "resourcepacks/Cobblemon Interface v1.6.0.zip",
+    "size": 14108266,
+    "md5": "03cacbf0b647173ae6707cc74c10866c"
+  },
+  {
+    "category": "resourcepack",
+    "path": "resourcepacks/Cobblemotion_v1.5.1.zip",
+    "size": 3148542,
+    "md5": "07ce9e8ea7eea6285ab0d7a939462cdf"
+  },
+  {
+    "category": "resourcepack",
+    "path": "resourcepacks/Pokemusic-Enviroment v3.0 COBLEMON.zip",
+    "size": 505347807,
+    "md5": "b2098ce8510801405479d530dcfc9266"
+  },
+  {
+    "category": "root",
+    "path": "options.txt",
+    "size": 9211,
+    "md5": "c36142f6422e76e1bce49caa9c35a666"
+  },
+  {
+    "category": "root",
+    "path": "servers.dat",
+    "size": 176,
+    "md5": "8ec1d40b6af3407c5b8a6d500fb40d5f"
+  }
 ]
