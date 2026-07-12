@@ -41,7 +41,29 @@ const releaseUrl = (fname) => `${releaseBase}/${encodeURIComponent(fname.replace
 
 const slug = (s) => s.replace(/\.[^.]+$/, '').replace(/[^A-Za-z0-9.+_-]/g, '_')
 
-// ---- Fabric loader (managed by Helios via version manifest) ----
+// ---- Fabric loader ----
+// The Fabric loader's own dependencies (asm, sponge-mixin, intermediary, ...) live inside the
+// fabric profile JSON in FABRIC format ({name, url:<maven-base>}), which Helios does NOT download.
+// Helios only downloads + classpaths modules declared in the distribution, so we must emit each of
+// those libraries as a `Library` submodule (this is exactly what Nebula does).
+const mavenToPath = (name) => {
+  const [g, a, v] = name.split(':')
+  return `${g.replace(/\./g, '/')}/${a}/${v}/${a}-${v}.jar`
+}
+const fabricManifest = readJson(`fabric-${CONFIG.fabricLoader}-${CONFIG.mcVersion}.json`)
+const fabricLibModules = fabricManifest.libraries
+  .filter((l) => !l.name.startsWith('net.fabricmc:fabric-loader:')) // the parent Fabric module IS the loader
+  .map((l) => ({
+    id: l.name,
+    name: l.name.split(':')[1],
+    type: 'Library',
+    artifact: {
+      size: l.size,
+      MD5: l.md5,
+      url: (l.url || 'https://maven.fabricmc.net/') + mavenToPath(l.name),
+    },
+  }))
+
 const fabricModule = {
   id: `net.fabricmc:fabric-loader:${CONFIG.fabricLoader}`,
   name: 'Fabric Loader',
@@ -50,18 +72,20 @@ const fabricModule = {
     size: CONFIG.fabricLoaderSize, MD5: CONFIG.fabricLoaderMD5,
     url: `https://maven.fabricmc.net/net/fabricmc/fabric-loader/${CONFIG.fabricLoader}/fabric-loader-${CONFIG.fabricLoader}.jar`,
   },
-  subModules: [{
-    // NOTE: this id becomes a folder name (common/versions/<id>/<id>.json), so it must be
-    // filesystem-safe (no ':'). Use the fabric profile's own id, e.g. fabric-loader-0.19.3-1.21.1.
-    id: `fabric-loader-${CONFIG.fabricLoader}-${CONFIG.mcVersion}`,
-    name: 'Fabric (Version Manifest)',
-    type: 'VersionManifest',
-    artifact: {
-      size: CONFIG.versionManifestSize, MD5: CONFIG.versionManifestMD5,
-      // fabric-0.19.3-1.21.1.json is committed to the repo (raw served)
-      url: `${rawBase}/fabric-${CONFIG.fabricLoader}-${CONFIG.mcVersion}.json`,
+  subModules: [
+    {
+      // NOTE: this id becomes a folder name (common/versions/<id>/<id>.json), so it must be
+      // filesystem-safe (no ':'). Use the fabric profile's own id, e.g. fabric-loader-0.19.3-1.21.1.
+      id: `fabric-loader-${CONFIG.fabricLoader}-${CONFIG.mcVersion}`,
+      name: 'Fabric (Version Manifest)',
+      type: 'VersionManifest',
+      artifact: {
+        size: CONFIG.versionManifestSize, MD5: CONFIG.versionManifestMD5,
+        url: `${rawBase}/fabric-${CONFIG.fabricLoader}-${CONFIG.mcVersion}.json`,
+      },
     },
-  }],
+    ...fabricLibModules,
+  ],
 }
 
 // ---- mods -> FabricMod (managed, from Release) ----
