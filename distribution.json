@@ -1,0 +1,2583 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "CHANGE_ME",
+    "smallImageText": "PokeVillage",
+    "smallImageKey": "logo"
+  },
+  "rss": "",
+  "servers": [
+    {
+      "id": "PokeVillage-1.21.1",
+      "name": "PokeVillage",
+      "description": "포켓빌리지 서버",
+      "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
+      "version": "1.0.0",
+      "address": "create.kinetichosting.gg",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "PokeVillage",
+        "largeImageText": "PokeVillage",
+        "largeImageKey": "server"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.fabricmc:fabric-loader:0.19.3",
+              "name": "Fabric (Version Manifest)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "b53ec01e703f1447e2cf4b5f5d495200",
+                "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/fabric-0.19.3-1.21.1.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pokevillage.mods:accessories-fabric-1.1.0-beta.53+1.21.1:1.0.0",
+          "name": "accessories-fabric-1.1.0-beta.53+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095802,
+            "MD5": "1f332447eadf66a07b33e641816fcd5e",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
+            "path": "accessories-fabric-1.1.0-beta.53+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:AmbientSounds_FABRIC_v6.3.8_mc1.21.1:1.0.0",
+          "name": "AmbientSounds_FABRIC_v6.3.8_mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84820510,
+            "MD5": "cc9e21c796c8078e4d3454007a4bb444",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/AmbientSounds_FABRIC_v6.3.8_mc1.21.1.jar",
+            "path": "AmbientSounds_FABRIC_v6.3.8_mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:appleskin-fabric-mc1.21-3.0.6:1.0.0",
+          "name": "appleskin-fabric-mc1.21-3.0.6",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1082585,
+            "MD5": "a24c435e84973afd607e20395ecba19d",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/appleskin-fabric-mc1.21-3.0.6.jar",
+            "path": "appleskin-fabric-mc1.21-3.0.6.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:architectury-13.0.8-fabric:1.0.0",
+          "name": "architectury-13.0.8-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/architectury-13.0.8-fabric.jar",
+            "path": "architectury-13.0.8-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:athena-fabric-1.21.1-4.0.6:1.0.0",
+          "name": "athena-fabric-1.21.1-4.0.6",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88425,
+            "MD5": "a549af3b3a32722ab81ff11d9f44f90b",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/athena-fabric-1.21.1-4.0.6.jar",
+            "path": "athena-fabric-1.21.1-4.0.6.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:bclib-21.0.13:1.0.0",
+          "name": "bclib-21.0.13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1486843,
+            "MD5": "dea2b315841d5a8167980f39ff3ba526",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/bclib-21.0.13.jar",
+            "path": "bclib-21.0.13.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:better-nether-21.0.11:1.0.0",
+          "name": "better-nether-21.0.11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23145216,
+            "MD5": "bda45864e3f5e71478192066846f1ca0",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/better-nether-21.0.11.jar",
+            "path": "better-nether-21.0.11.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:BiomesOPlenty-fabric-1.21.1-21.1.0.14:1.0.0",
+          "name": "BiomesOPlenty-fabric-1.21.1-21.1.0.14",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22349808,
+            "MD5": "6eb41df90fe722f3203046fcc032454f",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/BiomesOPlenty-fabric-1.21.1-21.1.0.14.jar",
+            "path": "BiomesOPlenty-fabric-1.21.1-21.1.0.14.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:capturexp-fabric-1.7.3-1.3.0:1.0.0",
+          "name": "capturexp-fabric-1.7.3-1.3.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22848,
+            "MD5": "e6fc02948bb7b46b6554bc6df987e6f2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/capturexp-fabric-1.7.3-1.3.0.jar",
+            "path": "capturexp-fabric-1.7.3-1.3.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cardinal-components-api-6.1.3:1.0.0",
+          "name": "cardinal-components-api-6.1.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 229645,
+            "MD5": "8febe13b1c2df1e90a6fa8b5de8521a4",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cardinal-components-api-6.1.3.jar",
+            "path": "cardinal-components-api-6.1.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:chat_heads-0.15.2-fabric-1.21:1.0.0",
+          "name": "chat_heads-0.15.2-fabric-1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84297,
+            "MD5": "58da9f835bca8869a4d42daed086a367",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/chat_heads-0.15.2-fabric-1.21.jar",
+            "path": "chat_heads-0.15.2-fabric-1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:chefsdelight-1.0.5-fabric-1.21.1:1.0.0",
+          "name": "chefsdelight-1.0.5-fabric-1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 110480,
+            "MD5": "5b746967ebc5efd0456c7a500b2b5300",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/chefsdelight-1.0.5-fabric-1.21.1.jar",
+            "path": "chefsdelight-1.0.5-fabric-1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:chipped-fabric-1.21.1-4.0.2:1.0.0",
+          "name": "chipped-fabric-1.21.1-4.0.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15016830,
+            "MD5": "c98271e7ba961e78e4a589fc53fa71a2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/chipped-fabric-1.21.1-4.0.2.jar",
+            "path": "chipped-fabric-1.21.1-4.0.2.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cloth-config-15.0.140-fabric:1.0.0",
+          "name": "cloth-config-15.0.140-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cloth-config-15.0.140-fabric.jar",
+            "path": "cloth-config-15.0.140-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:CobbleBadges-fabric-4.0.0+Beta-1+1.21.1:1.0.0",
+          "name": "CobbleBadges-fabric-4.0.0+Beta-1+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 843407,
+            "MD5": "00a24911205cae63b50dcfc9d36777e2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/CobbleBadges-fabric-4.0.0%2BBeta-1%2B1.21.1.jar",
+            "path": "CobbleBadges-fabric-4.0.0+Beta-1+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobbledex-1.21.1-fabric-1.2.0:1.0.0",
+          "name": "cobbledex-1.21.1-fabric-1.2.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 436466,
+            "MD5": "fa4dc92b0e1fb2dfde4b3d21e3d17f3c",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobbledex-1.21.1-fabric-1.2.0.jar",
+            "path": "cobbledex-1.21.1-fabric-1.2.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobbledgacha-fabric-1.21.1-3.0.3:1.0.0",
+          "name": "cobbledgacha-fabric-1.21.1-3.0.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1148291,
+            "MD5": "d10f50d2f4bae439b5332707a47292ec",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobbledgacha-fabric-1.21.1-3.0.3.jar",
+            "path": "cobbledgacha-fabric-1.21.1-3.0.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1:1.0.0",
+          "name": "CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 369528,
+            "MD5": "1c38ad40c554bd82109d778daa95ecfe",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar",
+            "path": "CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Cobbleit-1.0.0:1.0.0",
+          "name": "Cobbleit-1.0.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4064,
+            "MD5": "33f8d1f400b2f85827e241efb5668dda",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobbleit-1.0.0.jar",
+            "path": "Cobbleit-1.0.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Cobblemon-fabric-1.7.3+1.21.1:1.0.0",
+          "name": "Cobblemon-fabric-1.7.3+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135801550,
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+            "path": "Cobblemon-fabric-1.7.3+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemon-farmers-delight-compat-1.1.0:1.0.0",
+          "name": "cobblemon-farmers-delight-compat-1.1.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 202832,
+            "MD5": "2ac37e2aafcf6cb72ee4d2a54f11c030",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon-farmers-delight-compat-1.1.0.jar",
+            "path": "cobblemon-farmers-delight-compat-1.1.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemonbattleplus-1.1.7:1.0.0",
+          "name": "cobblemonbattleplus-1.1.7",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1375640,
+            "MD5": "358e28b454f8526bd096babdcf3a0d00",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemonbattleplus-1.1.7.jar",
+            "path": "cobblemonbattleplus-1.1.7.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemonchallenge-fabric-2.4.0:1.0.0",
+          "name": "cobblemonchallenge-fabric-2.4.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77022,
+            "MD5": "61763aa68bcb7ce0e3f623f5ee6c08a2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemonchallenge-fabric-2.4.0.jar",
+            "path": "cobblemonchallenge-fabric-2.4.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:CobblemonIntros-1.0.0:1.0.0",
+          "name": "CobblemonIntros-1.0.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13961,
+            "MD5": "5cc4feb85aaed11d2e06def513c29d34",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/CobblemonIntros-1.0.0.jar",
+            "path": "CobblemonIntros-1.0.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemonraiddens-fabric-0.11.3+1.21.1:1.0.0",
+          "name": "cobblemonraiddens-fabric-0.11.3+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690197,
+            "MD5": "30283db43eee22f57df10d52a39323e6",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemonraiddens-fabric-0.11.3%2B1.21.1.jar",
+            "path": "cobblemonraiddens-fabric-0.11.3+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemon_snap-fabric-1.1.3:1.0.0",
+          "name": "cobblemon_snap-fabric-1.1.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4947119,
+            "MD5": "ff41384a357952c199086c210c5330af",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon_snap-fabric-1.1.3.jar",
+            "path": "cobblemon_snap-fabric-1.1.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblenav-fabric-2.3.3:1.0.0",
+          "name": "cobblenav-fabric-2.3.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1090821,
+            "MD5": "efbc5e5e05966cfd45f94ea0f8591cf2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblenav-fabric-2.3.3.jar",
+            "path": "cobblenav-fabric-2.3.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobeffectiveness-fabric-0.3:1.0.0",
+          "name": "cobeffectiveness-fabric-0.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 94372,
+            "MD5": "88943accc33d8c7350dc258ef07567e9",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobeffectiveness-fabric-0.3.jar",
+            "path": "cobeffectiveness-fabric-0.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:complete-cobblemon-collection-myths-and-legends-compat-2.1.0:1.0.0",
+          "name": "complete-cobblemon-collection-myths-and-legends-compat-2.1.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18494181,
+            "MD5": "b6a6cf3b4f4ed2ee7c2b3806f8bee599",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/complete-cobblemon-collection-myths-and-legends-compat-2.1.0.jar",
+            "path": "complete-cobblemon-collection-myths-and-legends-compat-2.1.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:CreativeCore_FABRIC_v2.13.39_mc1.21.1:1.0.0",
+          "name": "CreativeCore_FABRIC_v2.13.39_mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1247692,
+            "MD5": "df9871e46436ce7887579037d5074b9a",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar",
+            "path": "CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:extra-move-anims-cobblemon-1.7v1.0.2:1.0.0",
+          "name": "extra-move-anims-cobblemon-1.7v1.0.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 584731,
+            "MD5": "f6db659fcf908169c4d9aac01cef09fc",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/extra-move-anims-cobblemon-1.7v1.0.2.jar",
+            "path": "extra-move-anims-cobblemon-1.7v1.0.2.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:fabric-api-0.116.13+1.21.1:1.0.0",
+          "name": "fabric-api-0.116.13+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2427135,
+            "MD5": "9a8805aac7af9efc41b4be9e311d0040",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/fabric-api-0.116.13%2B1.21.1.jar",
+            "path": "fabric-api-0.116.13+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:fabric-language-kotlin-1.13.12+kotlin.2.4.0:1.0.0",
+          "name": "fabric-language-kotlin-1.13.12+kotlin.2.4.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8076848,
+            "MD5": "dff437aac8aae6eb76ae9db6b6ea9cb0",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/fabric-language-kotlin-1.13.12%2Bkotlin.2.4.0.jar",
+            "path": "fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:fancy-entity-renderer-fabric-1.21-0.4.8:1.0.0",
+          "name": "fancy-entity-renderer-fabric-1.21-0.4.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 409081,
+            "MD5": "6b24a6090e4179dd63f61491ef5f3b25",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/fancy-entity-renderer-fabric-1.21-0.4.8.jar",
+            "path": "fancy-entity-renderer-fabric-1.21-0.4.8.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:fancymenu_fabric_3.9.6_MC_1.21.1:1.0.0",
+          "name": "fancymenu_fabric_3.9.6_MC_1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25596013,
+            "MD5": "4bab5ebf03c0b8f639ca76850c37ecc0",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/fancymenu_fabric_3.9.6_MC_1.21.1.jar",
+            "path": "fancymenu_fabric_3.9.6_MC_1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:FarmersDelight-1.21.1-3.3.3+refabricated:1.0.0",
+          "name": "FarmersDelight-1.21.1-3.3.3+refabricated",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3240212,
+            "MD5": "0a509a64f871c958ab659fa684ea10c4",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/FarmersDelight-1.21.1-3.3.3%2Brefabricated.jar",
+            "path": "FarmersDelight-1.21.1-3.3.3+refabricated.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric:1.0.0",
+          "name": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 633065,
+            "MD5": "eba1a7f9d9976e983a2b9eb5e915e087",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+            "path": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ftb-chunks-fabric-2101.1.20:1.0.0",
+          "name": "ftb-chunks-fabric-2101.1.20",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 647771,
+            "MD5": "824c38a561b9f9edd0a06742c4d69c52",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ftb-chunks-fabric-2101.1.20.jar",
+            "path": "ftb-chunks-fabric-2101.1.20.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ftb-library-fabric-2101.1.32:1.0.0",
+          "name": "ftb-library-fabric-2101.1.32",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1411643,
+            "MD5": "46da20daa4cc677c22456a62f30205dd",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ftb-library-fabric-2101.1.32.jar",
+            "path": "ftb-library-fabric-2101.1.32.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ftb-teams-fabric-2101.1.10:1.0.0",
+          "name": "ftb-teams-fabric-2101.1.10",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 298292,
+            "MD5": "cf325f7dc2c5f527d991f116bec22441",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ftb-teams-fabric-2101.1.10.jar",
+            "path": "ftb-teams-fabric-2101.1.10.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ftbxaerocompat-fabric-1.1.4:1.0.0",
+          "name": "ftbxaerocompat-fabric-1.1.4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 108860,
+            "MD5": "2ae1fcdd58cdb192ed459245c1ecd1cd",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ftbxaerocompat-fabric-1.1.4.jar",
+            "path": "ftbxaerocompat-fabric-1.1.4.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:geckolib-fabric-1.21.1-4.9.2:1.0.0",
+          "name": "geckolib-fabric-1.21.1-4.9.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 660416,
+            "MD5": "fe791e7b10c8b7c736ea3e57747eac09",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/geckolib-fabric-1.21.1-4.9.2.jar",
+            "path": "geckolib-fabric-1.21.1-4.9.2.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:GlitchCore-fabric-1.21.1-2.1.0.2:1.0.0",
+          "name": "GlitchCore-fabric-1.21.1-2.1.0.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329237,
+            "MD5": "e92577af702e3991e844dbc598de0436",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+            "path": "GlitchCore-fabric-1.21.1-2.1.0.2.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:GymBadges-1.1:1.0.0",
+          "name": "GymBadges-1.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77360,
+            "MD5": "f0a07545c1e4f0b09a492d3e224b9fb8",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/GymBadges-1.1.jar",
+            "path": "GymBadges-1.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:handcrafted-fabric-1.21.1-4.0.3:1.0.0",
+          "name": "handcrafted-fabric-1.21.1-4.0.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7127377,
+            "MD5": "4ae4f2fe6a71eaeeade3ce0eb1db7997",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/handcrafted-fabric-1.21.1-4.0.3.jar",
+            "path": "handcrafted-fabric-1.21.1-4.0.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:iris-fabric-1.8.8+mc1.21.1:1.0.0",
+          "name": "iris-fabric-1.8.8+mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/iris-fabric-1.8.8%2Bmc1.21.1.jar",
+            "path": "iris-fabric-1.8.8+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:jei-1.21.1-fabric-19.27.0.336:1.0.0",
+          "name": "jei-1.21.1-fabric-19.27.0.336",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561528,
+            "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/jei-1.21.1-fabric-19.27.0.336.jar",
+            "path": "jei-1.21.1-fabric-19.27.0.336.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:konkrete_fabric_1.9.9_MC_1.21:1.0.0",
+          "name": "konkrete_fabric_1.9.9_MC_1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 786695,
+            "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/konkrete_fabric_1.9.9_MC_1.21.jar",
+            "path": "konkrete_fabric_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:legendarymonuments-fabric-1.21.1-8.0.3:1.0.0",
+          "name": "legendarymonuments-fabric-1.21.1-8.0.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16595316,
+            "MD5": "a9de3a0ba4173c8fa8b16dc8082fe606",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/legendarymonuments-fabric-1.21.1-8.0.3.jar",
+            "path": "legendarymonuments-fabric-1.21.1-8.0.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-API-fabric-1.3.0-beta-release-fabric:1.0.0",
+          "name": "letsdo-API-fabric-1.3.0-beta-release-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1622017,
+            "MD5": "533902436eb65361dab7c5738c0422c2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-API-fabric-1.3.0-beta-release-fabric.jar",
+            "path": "letsdo-API-fabric-1.3.0-beta-release-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-bakery-fabric-2.1.6:1.0.0",
+          "name": "letsdo-bakery-fabric-2.1.6",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2033208,
+            "MD5": "8fb6722a858853a749039bd9a81e1df9",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-bakery-fabric-2.1.6.jar",
+            "path": "letsdo-bakery-fabric-2.1.6.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-farm_and_charm-fabric-1.1.22:1.0.0",
+          "name": "letsdo-farm_and_charm-fabric-1.1.22",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2557418,
+            "MD5": "4d755f5c2e3fd7fd6920046c813c161c",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-farm_and_charm-fabric-1.1.22.jar",
+            "path": "letsdo-farm_and_charm-fabric-1.1.22.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-furniture-fabric-1.1.4:1.0.0",
+          "name": "letsdo-furniture-fabric-1.1.4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4158006,
+            "MD5": "9ffa57d51d56c0bd42ea97057525ed60",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-furniture-fabric-1.1.4.jar",
+            "path": "letsdo-furniture-fabric-1.1.4.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-meadow-fabric-1.4.8:1.0.0",
+          "name": "letsdo-meadow-fabric-1.4.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2141938,
+            "MD5": "b650bbb566d43bd83ac7c57a6ac2e03e",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-meadow-fabric-1.4.8.jar",
+            "path": "letsdo-meadow-fabric-1.4.8.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:letsdo-vinery-fabric-1.5.3:1.0.0",
+          "name": "letsdo-vinery-fabric-1.5.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2984330,
+            "MD5": "464fba7941a41f89c991658038bc0933",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/letsdo-vinery-fabric-1.5.3.jar",
+            "path": "letsdo-vinery-fabric-1.5.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:lithostitched-1.7.13-fabric-21.1:1.0.0",
+          "name": "lithostitched-1.7.13-fabric-21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 827470,
+            "MD5": "1654f22b58c0aa48ec1620d85f2d87e6",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/lithostitched-1.7.13-fabric-21.1.jar",
+            "path": "lithostitched-1.7.13-fabric-21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:mega_showdown-fabric-1.8.4+1.7.3+1.21.1:1.0.0",
+          "name": "mega_showdown-fabric-1.8.4+1.7.3+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17213370,
+            "MD5": "0e3197dd14c98ce0240d498114cfe143",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/mega_showdown-fabric-1.8.4%2B1.7.3%2B1.21.1.jar",
+            "path": "mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:melody_fabric_1.0.10_MC_1.21:1.0.0",
+          "name": "melody_fabric_1.0.10_MC_1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188035,
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/melody_fabric_1.0.10_MC_1.21.jar",
+            "path": "melody_fabric_1.0.10_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:modmenu-11.0.4:1.0.0",
+          "name": "modmenu-11.0.4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973059,
+            "MD5": "b2b9c53a887c100f780708c4f36db6c4",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/modmenu-11.0.4.jar",
+            "path": "modmenu-11.0.4.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:MouseTweaks-fabric-mc1.21-2.26:1.0.0",
+          "name": "MouseTweaks-fabric-mc1.21-2.26",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75984,
+            "MD5": "1d39ead1641ef522bc7ae92383f21da8",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/MouseTweaks-fabric-mc1.21-2.26.jar",
+            "path": "MouseTweaks-fabric-mc1.21-2.26.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:MythsAndLegends-fabric-1.9.0:1.0.0",
+          "name": "MythsAndLegends-fabric-1.9.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3249725,
+            "MD5": "834973489f5cd619accf1f74ee301c0f",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/MythsAndLegends-fabric-1.9.0.jar",
+            "path": "MythsAndLegends-fabric-1.9.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:notenoughanimations-fabric-1.12.4-mc1.21.1:1.0.0",
+          "name": "notenoughanimations-fabric-1.12.4-mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1948132,
+            "MD5": "6afb17a78bec2140a3904dcd6d1a3d92",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
+            "path": "notenoughanimations-fabric-1.12.4-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:owo-lib-0.12.15.4+1.21:1.0.0",
+          "name": "owo-lib-0.12.15.4+1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183559,
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/owo-lib-0.12.15.4%2B1.21.jar",
+            "path": "owo-lib-0.12.15.4+1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:placeholder-api-2.4.2+1.21:1.0.0",
+          "name": "placeholder-api-2.4.2+1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 232325,
+            "MD5": "4de8568a088a276c94168514d625413d",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/placeholder-api-2.4.2%2B1.21.jar",
+            "path": "placeholder-api-2.4.2+1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:PokemonToItem-fabric-0.2.0:1.0.0",
+          "name": "PokemonToItem-fabric-0.2.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4897890,
+            "MD5": "620876dcafd059789543a744917dca31",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/PokemonToItem-fabric-0.2.0.jar",
+            "path": "PokemonToItem-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:rctapi-fabric-1.21.1-0.15.2-beta:1.0.0",
+          "name": "rctapi-fabric-1.21.1-0.15.2-beta",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 234250,
+            "MD5": "fe02b1985ce18f764f41d8e802d38035",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/rctapi-fabric-1.21.1-0.15.2-beta.jar",
+            "path": "rctapi-fabric-1.21.1-0.15.2-beta.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:rctmod-fabric-1.21.1-0.18.1-beta:1.0.0",
+          "name": "rctmod-fabric-1.21.1-0.18.1-beta",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6757956,
+            "MD5": "25c546e42d63947ac2ecdcd12823cc42",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/rctmod-fabric-1.21.1-0.18.1-beta.jar",
+            "path": "rctmod-fabric-1.21.1-0.18.1-beta.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:reactivemusic-1.2.2+1.21.1:1.0.0",
+          "name": "reactivemusic-1.2.2+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 294707477,
+            "MD5": "aa1746c382e15d8ca45bbfb9f32c7a51",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/reactivemusic-1.2.2%2B1.21.1.jar",
+            "path": "reactivemusic-1.2.2+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:RecallBeams-0.1.0-onecolor:1.0.0",
+          "name": "RecallBeams-0.1.0-onecolor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18255,
+            "MD5": "d76237c07bc0d275f0b7574b75056fe9",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/RecallBeams-0.1.0-onecolor.jar",
+            "path": "RecallBeams-0.1.0-onecolor.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:resourcefullib-fabric-1.21-3.0.12:1.0.0",
+          "name": "resourcefullib-fabric-1.21-3.0.12",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 485586,
+            "MD5": "89dac4248b76747800fbc00fa063825e",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/resourcefullib-fabric-1.21-3.0.12.jar",
+            "path": "resourcefullib-fabric-1.21-3.0.12.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:SimpleTMs-fabric-2.3.3:1.0.0",
+          "name": "SimpleTMs-fabric-2.3.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 821382,
+            "MD5": "9a9d474ca102e1d04fa89926fa837896",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/SimpleTMs-fabric-2.3.3.jar",
+            "path": "SimpleTMs-fabric-2.3.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:sodium-fabric-0.6.13+mc1.21.1:1.0.0",
+          "name": "sodium-fabric-0.6.13+mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "MD5": "aa37ba0048a1af6b554b137088cad484",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
+            "path": "sodium-fabric-0.6.13+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:talking-heads-1.1.3+1.21.1+fabric:1.0.0",
+          "name": "talking-heads-1.1.3+1.21.1+fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 286178,
+            "MD5": "a18d6861e4848f38e729da59049f6b56",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/talking-heads-1.1.3%2B1.21.1%2Bfabric.jar",
+            "path": "talking-heads-1.1.3+1.21.1+fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:TerraBlender-fabric-1.21.1-4.1.0.8:1.0.0",
+          "name": "TerraBlender-fabric-1.21.1-4.1.0.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337989,
+            "MD5": "cf9f9ea80cd7f8febebbe1752f23b68f",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+            "path": "TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Terralith_1.21.x_v2.6.2:1.0.0",
+          "name": "Terralith_1.21.x_v2.6.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2813817,
+            "MD5": "7d2aa346b66270e770fee79e5b4541d6",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Terralith_1.21.x_v2.6.2.jar",
+            "path": "Terralith_1.21.x_v2.6.2.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:timcore-fabric-1.7.3-1.32.0:1.0.0",
+          "name": "timcore-fabric-1.7.3-1.32.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 304444,
+            "MD5": "f206df5480d269c0c0fe27846acb1d89",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/timcore-fabric-1.7.3-1.32.0.jar",
+            "path": "timcore-fabric-1.7.3-1.32.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:toms_storage_fabric-1.21-2.3.0:1.0.0",
+          "name": "toms_storage_fabric-1.21-2.3.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1962781,
+            "MD5": "46341f7e08a115bcc3b5b114dff671fb",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/toms_storage_fabric-1.21-2.3.0.jar",
+            "path": "toms_storage_fabric-1.21-2.3.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:travelersbackpack-fabric-1.21.1-10.1.36:1.0.0",
+          "name": "travelersbackpack-fabric-1.21.1-10.1.36",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1498971,
+            "MD5": "ca3b049dfdd3e441b9505b2c1423e9fa",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/travelersbackpack-fabric-1.21.1-10.1.36.jar",
+            "path": "travelersbackpack-fabric-1.21.1-10.1.36.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:voicechat-fabric-1.21.1-2.6.20:1.0.0",
+          "name": "voicechat-fabric-1.21.1-2.6.20",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5361828,
+            "MD5": "eceef4cce4351ac0180ddeb125899a43",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/voicechat-fabric-1.21.1-2.6.20.jar",
+            "path": "voicechat-fabric-1.21.1-2.6.20.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:worldweaver-21.0.13:1.0.0",
+          "name": "worldweaver-21.0.13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2364215,
+            "MD5": "6b2ca5e70ba245a74a7cbe71dd0a41bb",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/worldweaver-21.0.13.jar",
+            "path": "worldweaver-21.0.13.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:xaerominimap-fabric-1.21.1-26.2.0:1.0.0",
+          "name": "xaerominimap-fabric-1.21.1-26.2.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2220634,
+            "MD5": "ebb04053c27a7601db7ebe71a049a387",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/xaerominimap-fabric-1.21.1-26.2.0.jar",
+            "path": "xaerominimap-fabric-1.21.1-26.2.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:xaeroworldmap-fabric-1.21.1-1.42.0:1.0.0",
+          "name": "xaeroworldmap-fabric-1.21.1-1.42.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1435557,
+            "MD5": "ff9f3b5064c83bfdc8ca26e4c78b78bd",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/xaeroworldmap-fabric-1.21.1-1.42.0.jar",
+            "path": "xaeroworldmap-fabric-1.21.1-1.42.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:yet_another_config_lib_v3-3.8.2+1.21.1-fabric:1.0.0",
+          "name": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131265,
+            "MD5": "aadf11f5a793296be7c195e1ca388492",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+            "path": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:zamega-fabric-1.7.3:1.0.0",
+          "name": "zamega-fabric-1.7.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2387420,
+            "MD5": "42019a1020a2c9ffccf529a42c968a16",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/zamega-fabric-1.7.3.jar",
+            "path": "zamega-fabric-1.7.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_accessories:1.0.0",
+          "name": "config/accessories.json5",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "MD5": "2e5b394d1482402ea95eedcad8b5e87a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/accessories.json5",
+            "path": "config/accessories.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_appleskin:1.0.0",
+          "name": "config/appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1327,
+            "MD5": "406b4584562fb60304a8adc824de0000",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/appleskin.json5",
+            "path": "config/appleskin.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_bakery:1.0.0",
+          "name": "config/bakery.json",
+          "type": "File",
+          "artifact": {
+            "size": 2906,
+            "MD5": "7c9e9f8c015039143a200cdd888295ca",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/bakery.json",
+            "path": "config/bakery.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_capture_xp:1.0.0",
+          "name": "config/capture_xp.json",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "MD5": "9284820ec2bbfbb7577865c6a8c76831",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/capture_xp.json",
+            "path": "config/capture_xp.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cardinal-components-api:1.0.0",
+          "name": "config/cardinal-components-api.properties",
+          "type": "File",
+          "artifact": {
+            "size": 452,
+            "MD5": "7a5c42bb5538c774652ad99f2a3b0078",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cardinal-components-api.properties",
+            "path": "config/cardinal-components-api.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_chat_heads:1.0.0",
+          "name": "config/chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 229,
+            "MD5": "582cc3f28157f02c5504e49bc7e4a9f2",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/chat_heads.json5",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_chefsdelightconfig:1.0.0",
+          "name": "config/chefsdelightconfig.properties",
+          "type": "File",
+          "artifact": {
+            "size": 379,
+            "MD5": "43c0fa0e88bf2d5a1b613c95afc0d5e3",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/chefsdelightconfig.properties",
+            "path": "config/chefsdelightconfig.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonchallenge-config:1.0.0",
+          "name": "config/cobblemonchallenge-config.properties",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "MD5": "a872eab4aff16a619c6d89f9293a2a39",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonchallenge-config.properties",
+            "path": "config/cobblemonchallenge-config.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_creativecore-client:1.0.0",
+          "name": "config/creativecore-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "MD5": "235bb114cb2741da4a4dd79c3f559c15",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/creativecore-client.json",
+            "path": "config/creativecore-client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_creativecore:1.0.0",
+          "name": "config/creativecore.json",
+          "type": "File",
+          "artifact": {
+            "size": 274,
+            "MD5": "a3979095f52fee66bc8624b7898d2e8e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/creativecore.json",
+            "path": "config/creativecore.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_farmersdelight-client:1.0.0",
+          "name": "config/farmersdelight-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "MD5": "57aa52c3e1378452aa4c5f34f6914f26",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/farmersdelight-client.json",
+            "path": "config/farmersdelight-client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_farmersdelight-common:1.0.0",
+          "name": "config/farmersdelight-common.json",
+          "type": "File",
+          "artifact": {
+            "size": 1284,
+            "MD5": "ae08a10b010e75ef62af7b07ce5a5d68",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/farmersdelight-common.json",
+            "path": "config/farmersdelight-common.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_farm_and_charm:1.0.0",
+          "name": "config/farm_and_charm.json",
+          "type": "File",
+          "artifact": {
+            "size": 3152,
+            "MD5": "916f465b15065edabdc980bf513dfe48",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/farm_and_charm.json",
+            "path": "config/farm_and_charm.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_forgeconfigapiport:1.0.0",
+          "name": "config/forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "MD5": "80b3cd8edc58e5849bf5a7a0c48bd4ef",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/forgeconfigapiport.toml",
+            "path": "config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_ftbchunks-client:1.0.0",
+          "name": "config/ftbchunks-client.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 8321,
+            "MD5": "7111d4868624878ce894a0307acf3ec6",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftbchunks-client.snbt",
+            "path": "config/ftbchunks-client.snbt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_ftbchunks-world:1.0.0",
+          "name": "config/ftbchunks-world.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 9334,
+            "MD5": "801ec72dc20a11d4b32d657d5519163c",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftbchunks-world.snbt",
+            "path": "config/ftbchunks-world.snbt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_ftblibrary-client:1.0.0",
+          "name": "config/ftblibrary-client.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1728,
+            "MD5": "cdd3f095cda8f077c848da2c2a0764aa",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftblibrary-client.snbt",
+            "path": "config/ftblibrary-client.snbt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_ftbteams-server:1.0.0",
+          "name": "config/ftbteams-server.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 742,
+            "MD5": "08b03234582fefc39e8170144afb1022",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftbteams-server.snbt",
+            "path": "config/ftbteams-server.snbt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_iris-excluded:1.0.0",
+          "name": "config/iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/iris-excluded.json",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_iris:1.0.0",
+          "name": "config/iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "MD5": "1f05af1ffb2950ad829698826cf0c85b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_lithostitched:1.0.0",
+          "name": "config/lithostitched.json",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "MD5": "345e5fd8f4228a78675c761850e85ba9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/lithostitched.json",
+            "path": "config/lithostitched.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_meadow:1.0.0",
+          "name": "config/meadow.json",
+          "type": "File",
+          "artifact": {
+            "size": 110,
+            "MD5": "8daf3da117b1970b8b695b798839d97d",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/meadow.json",
+            "path": "config/meadow.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_modmenu:1.0.0",
+          "name": "config/modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 840,
+            "MD5": "6f801fc101c146e1c993f05544858c34",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/modmenu.json",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_MouseTweaks:1.0.0",
+          "name": "config/MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/MouseTweaks.cfg",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_notenoughanimations:1.0.0",
+          "name": "config/notenoughanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 3357,
+            "MD5": "3f3d7ed03466549ea2daa6c566c2fb93",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/notenoughanimations.json",
+            "path": "config/notenoughanimations.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_rctmod-client:1.0.0",
+          "name": "config/rctmod-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 808,
+            "MD5": "bf5a428182540dd355d374132ef2fe37",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/rctmod-client.toml",
+            "path": "config/rctmod-client.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_rctmod-server:1.0.0",
+          "name": "config/rctmod-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8719,
+            "MD5": "1599e1674d0e05028152aa75e8dfa867",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/rctmod-server.toml",
+            "path": "config/rctmod-server.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_ReactiveMusic:1.0.0",
+          "name": "config/ReactiveMusic.json5",
+          "type": "File",
+          "artifact": {
+            "size": 239,
+            "MD5": "d41fe461a9504918c63be2fe0934acd5",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ReactiveMusic.json5",
+            "path": "config/ReactiveMusic.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_recall_beams:1.0.0",
+          "name": "config/recall_beams.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/recall_beams.json",
+            "path": "config/recall_beams.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_sodium-fingerprint:1.0.0",
+          "name": "config/sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "2c1b281c154d61345be6f7dc2038955b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-fingerprint.json",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_sodium-mixins:1.0.0",
+          "name": "config/sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-mixins.properties",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_sodium-options:1.0.0",
+          "name": "config/sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 679,
+            "MD5": "ce71803a1bf6a3956c0e9e0c4fd1f4e8",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_sodiumdynamiclights-client:1.0.0",
+          "name": "config/sodiumdynamiclights-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "MD5": "1aa7ab78fb5b1f74d98a096821d7ac08",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodiumdynamiclights-client.toml",
+            "path": "config/sodiumdynamiclights-client.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_talkingheads:1.0.0",
+          "name": "config/talkingheads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 218,
+            "MD5": "92981b0cc119348102b15d604b88740b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/talkingheads.json5",
+            "path": "config/talkingheads.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_terrablender:1.0.0",
+          "name": "config/terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 988,
+            "MD5": "f833bc1281a0152f4e2abf27ee1ad512",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/terrablender.toml",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_terralith:1.0.0",
+          "name": "config/terralith.json",
+          "type": "File",
+          "artifact": {
+            "size": 212,
+            "MD5": "4555bfc348c70b4b33ded045222d4a6a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/terralith.json",
+            "path": "config/terralith.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_tim_core:1.0.0",
+          "name": "config/tim_core.json",
+          "type": "File",
+          "artifact": {
+            "size": 762,
+            "MD5": "4f42aacdc25dd91eddd93d479d4f10ad",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/tim_core.json",
+            "path": "config/tim_core.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_toms_storage:1.0.0",
+          "name": "config/toms_storage.json",
+          "type": "File",
+          "artifact": {
+            "size": 447,
+            "MD5": "55a14982bb4553c0d10a4954997696ec",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/toms_storage.json",
+            "path": "config/toms_storage.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_transition:1.0.0",
+          "name": "config/transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/transition.json",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_travelersbackpack:1.0.0",
+          "name": "config/travelersbackpack.json5",
+          "type": "File",
+          "artifact": {
+            "size": 11955,
+            "MD5": "eed30e5e86ee5db9e52693f4aeda86b6",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/travelersbackpack.json5",
+            "path": "config/travelersbackpack.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_trender:1.0.0",
+          "name": "config/trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 47,
+            "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/trender.json",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_vinery:1.0.0",
+          "name": "config/vinery.json",
+          "type": "File",
+          "artifact": {
+            "size": 4692,
+            "MD5": "3651a513bb1d0983e50e20d617a6882f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/vinery.json",
+            "path": "config/vinery.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaerohud:1.0.0",
+          "name": "config/xaerohud.txt",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "MD5": "2f87c54b0b2e85e6a5031171284d6f31",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaerohud.txt",
+            "path": "config/xaerohud.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaeropatreon:1.0.0",
+          "name": "config/xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaeropatreon.txt",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_yacl:1.0.0",
+          "name": "config/yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "MD5": "9378f7cef65c5208431350700cf83a11",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/yacl.json5",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_bclib_client:1.0.0",
+          "name": "config/bclib/client.json",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "MD5": "0f2f6b3dfa4f13e339b6b4413ac742fa",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/bclib/client.json",
+            "path": "config/bclib/client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_bclib_main:1.0.0",
+          "name": "config/bclib/main.json",
+          "type": "File",
+          "artifact": {
+            "size": 110,
+            "MD5": "12f5f549aca62847965f0e677c81c3a4",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/bclib/main.json",
+            "path": "config/bclib/main.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_betternether_client:1.0.0",
+          "name": "config/betternether/client.json",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "MD5": "5dfe2cf4e1465794633b15b274fc6958",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/betternether/client.json",
+            "path": "config/betternether/client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_betternether_default_game_rules:1.0.0",
+          "name": "config/betternether/default_game_rules.json",
+          "type": "File",
+          "artifact": {
+            "size": 218,
+            "MD5": "100b7c1ad51d17a5d8b1bc78850427d3",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/betternether/default_game_rules.json",
+            "path": "config/betternether/default_game_rules.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_betternether_world:1.0.0",
+          "name": "config/betternether/world.json",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "MD5": "410210d63a93a9af5fc161860c675eaa",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/betternether/world.json",
+            "path": "config/betternether/world.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_biomesoplenty_biome_toggles:1.0.0",
+          "name": "config/biomesoplenty/biome_toggles.json",
+          "type": "File",
+          "artifact": {
+            "size": 2192,
+            "MD5": "0e4557a6478935daab47223d35c2de32",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/biomesoplenty/biome_toggles.json",
+            "path": "config/biomesoplenty/biome_toggles.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_biomesoplenty_gameplay:1.0.0",
+          "name": "config/biomesoplenty/gameplay.toml",
+          "type": "File",
+          "artifact": {
+            "size": 109,
+            "MD5": "364a5eb0acc8cd9e66abef0d62d0a947",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/biomesoplenty/gameplay.toml",
+            "path": "config/biomesoplenty/gameplay.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_biomesoplenty_generation:1.0.0",
+          "name": "config/biomesoplenty/generation.toml",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "MD5": "c55977a668ea46732d3f00a9ab10ad21",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/biomesoplenty/generation.toml",
+            "path": "config/biomesoplenty/generation.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledex_rewards:1.0.0",
+          "name": "config/cobbledex/rewards.json",
+          "type": "File",
+          "artifact": {
+            "size": 5106,
+            "MD5": "eac38162004014ecccb7f7b443047df6",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledex/rewards.json",
+            "path": "config/cobbledex/rewards.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledex_settings:1.0.0",
+          "name": "config/cobbledex/settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "MD5": "06f234f20bdd4b6cdb0eb46745d0fe4e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledex/settings.json",
+            "path": "config/cobbledex/settings.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledollars_bank:1.0.0",
+          "name": "config/cobbledollars/bank.json",
+          "type": "File",
+          "artifact": {
+            "size": 85,
+            "MD5": "8b7ee15bb14c482d9d1962ede9708dea",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledollars/bank.json",
+            "path": "config/cobbledollars/bank.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledollars_client:1.0.0",
+          "name": "config/cobbledollars/client.json",
+          "type": "File",
+          "artifact": {
+            "size": 39,
+            "MD5": "10dc29fe21361c8c2f0715d4b32cc18a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledollars/client.json",
+            "path": "config/cobbledollars/client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledollars_common:1.0.0",
+          "name": "config/cobbledollars/common.json",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "MD5": "dce7739a350fbce833dee619527aa588",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledollars/common.json",
+            "path": "config/cobbledollars/common.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobbledollars_default_shop:1.0.0",
+          "name": "config/cobbledollars/default_shop.json",
+          "type": "File",
+          "artifact": {
+            "size": 5053,
+            "MD5": "74bf0674b9c55c4fec78373ef6ad1691",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledollars/default_shop.json",
+            "path": "config/cobbledollars/default_shop.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemon_main:1.0.0",
+          "name": "config/cobblemon/main.json",
+          "type": "File",
+          "artifact": {
+            "size": 3408,
+            "MD5": "e766eff9d190c0e56184439f1bbaeaaf",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemon/main.json",
+            "path": "config/cobblemon/main.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonbattleplus_trainer_npc_presets_cobblemonbattleplus_draft_1783352773864:1.0.0",
+          "name": "config/cobblemonbattleplus/trainer_npc/presets/cobblemonbattleplus/draft_1783352773864.json",
+          "type": "File",
+          "artifact": {
+            "size": 4588,
+            "MD5": "510c1d64b25ee18c415f54b937b50495",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonbattleplus/trainer_npc/presets/cobblemonbattleplus/draft_1783352773864.json",
+            "path": "config/cobblemonbattleplus/trainer_npc/presets/cobblemonbattleplus/draft_1783352773864.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_blacklist:1.0.0",
+          "name": "config/cobblemonraiddens/blacklist.json5",
+          "type": "File",
+          "artifact": {
+            "size": 870,
+            "MD5": "e7a56e853c9e155a54137f879bacd0b8",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/blacklist.json5",
+            "path": "config/cobblemonraiddens/blacklist.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_client:1.0.0",
+          "name": "config/cobblemonraiddens/client.json5",
+          "type": "File",
+          "artifact": {
+            "size": 978,
+            "MD5": "bd5ce18abe93e2c36a98c9e4e4ebb596",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/client.json5",
+            "path": "config/cobblemonraiddens/client.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_common:1.0.0",
+          "name": "config/cobblemonraiddens/common.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2036,
+            "MD5": "cbcc67a04b1051256504f16d8fffb573",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/common.json5",
+            "path": "config/cobblemonraiddens/common.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_conditions:1.0.0",
+          "name": "config/cobblemonraiddens/conditions.json5",
+          "type": "File",
+          "artifact": {
+            "size": 459,
+            "MD5": "7cb22f08dc3d1579906a8f6e3fb5024a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/conditions.json5",
+            "path": "config/cobblemonraiddens/conditions.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_five:1.0.0",
+          "name": "config/cobblemonraiddens/tier_five.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2128,
+            "MD5": "a4b1e342ad64a8bb5aea7793ebaa10c4",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_five.json5",
+            "path": "config/cobblemonraiddens/tier_five.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_four:1.0.0",
+          "name": "config/cobblemonraiddens/tier_four.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2125,
+            "MD5": "aa1c99be6d26dd45d49a1609afe984e4",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_four.json5",
+            "path": "config/cobblemonraiddens/tier_four.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_one:1.0.0",
+          "name": "config/cobblemonraiddens/tier_one.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2121,
+            "MD5": "2b18ffff7a9dc7f7314bd14b20853a59",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_one.json5",
+            "path": "config/cobblemonraiddens/tier_one.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_seven:1.0.0",
+          "name": "config/cobblemonraiddens/tier_seven.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2164,
+            "MD5": "8ae00bb6477fba04692d88516e0a7381",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_seven.json5",
+            "path": "config/cobblemonraiddens/tier_seven.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_six:1.0.0",
+          "name": "config/cobblemonraiddens/tier_six.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2127,
+            "MD5": "03f8779cd2cd08fcbf48b3a9982c3967",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_six.json5",
+            "path": "config/cobblemonraiddens/tier_six.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_three:1.0.0",
+          "name": "config/cobblemonraiddens/tier_three.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2121,
+            "MD5": "c85d2212eda7bd93521fb3ed13603e93",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_three.json5",
+            "path": "config/cobblemonraiddens/tier_three.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemonraiddens_tier_two:1.0.0",
+          "name": "config/cobblemonraiddens/tier_two.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2121,
+            "MD5": "f8a22111629cad596727349409c99d8a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/tier_two.json5",
+            "path": "config/cobblemonraiddens/tier_two.json5"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblemon_snap_storage:1.0.0",
+          "name": "config/cobblemon_snap/storage.json",
+          "type": "File",
+          "artifact": {
+            "size": 600,
+            "MD5": "893635431446df5898e50ef7a3a2fe74",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemon_snap/storage.json",
+            "path": "config/cobblemon_snap/storage.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblenav_client-config:1.0.0",
+          "name": "config/cobblenav/client-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 400,
+            "MD5": "08470b06df8553a0ce61018b36af3f52",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblenav/client-config.json",
+            "path": "config/cobblenav/client-config.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_cobblenav_server-config:1.0.0",
+          "name": "config/cobblenav/server-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1095,
+            "MD5": "34159c64d9e2e1110bbf674acdbca1eb",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblenav/server-config.json",
+            "path": "config/cobblenav/server-config.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fabric_indigo-renderer:1.0.0",
+          "name": "config/fabric/indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "MD5": "fccef670ff415666df1bdd4467ee4827",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_customizablemenus:1.0.0",
+          "name": "config/fancymenu/customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "MD5": "fe5f2f91fcc0653b93634a414aa90cd5",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/customizablemenus.txt",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_custom_gui_screens:1.0.0",
+          "name": "config/fancymenu/custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "MD5": "a854b6aec45c8790ce3d365801f9fc2e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/custom_gui_screens.txt",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_legacy_checklist:1.0.0",
+          "name": "config/fancymenu/legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/legacy_checklist.txt",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_options:1.0.0",
+          "name": "config/fancymenu/options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4398,
+            "MD5": "21540080cc1853fc45e858015624434a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/options.txt",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_user_variables:1.0.0",
+          "name": "config/fancymenu/user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/user_variables.db",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_assets_bg:1.0.0",
+          "name": "config/fancymenu/assets/bg.png",
+          "type": "File",
+          "artifact": {
+            "size": 4160327,
+            "MD5": "d2169e9d052e5f559019acbf69ca4889",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/assets/bg.png",
+            "path": "config/fancymenu/assets/bg.png"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_customization_menu_layout:1.0.0",
+          "name": "config/fancymenu/customization/menu_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 13339,
+            "MD5": "876714f18cefa121dba7638c036b3842",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/customization/menu_layout.txt",
+            "path": "config/fancymenu/customization/menu_layout.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_layout_editor_widgets_element_layer_control:1.0.0",
+          "name": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "MD5": "43a5ab1a30249caf7dafc2f7ad4b0ed9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_cherry_blossom:1.0.0",
+          "name": "config/fancymenu/ui_themes/cherry_blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 9349,
+            "MD5": "90e358ee1c6bbd1d17bbcdad0a504f3d",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/cherry_blossom.json",
+            "path": "config/fancymenu/ui_themes/cherry_blossom.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_cozy_campfire:1.0.0",
+          "name": "config/fancymenu/ui_themes/cozy_campfire.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "MD5": "02b0cd78a482dbd7ec793e123f4c007b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/cozy_campfire.json",
+            "path": "config/fancymenu/ui_themes/cozy_campfire.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_dark:1.0.0",
+          "name": "config/fancymenu/ui_themes/dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 9329,
+            "MD5": "cbf30e731636c918d598f1ad9b0ea371",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/dark.json",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_dark_high_contrast:1.0.0",
+          "name": "config/fancymenu/ui_themes/dark_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9359,
+            "MD5": "4b532a7a5c5ecd839e55a3c083c8bca3",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/dark_high_contrast.json",
+            "path": "config/fancymenu/ui_themes/dark_high_contrast.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_light:1.0.0",
+          "name": "config/fancymenu/ui_themes/light.json",
+          "type": "File",
+          "artifact": {
+            "size": 9331,
+            "MD5": "f3980d6eed1064c36d794d7b1030fd06",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/light.json",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_light_high_contrast:1.0.0",
+          "name": "config/fancymenu/ui_themes/light_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9361,
+            "MD5": "700ff9cd0e95ac2234e0494af729226a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/light_high_contrast.json",
+            "path": "config/fancymenu/ui_themes/light_high_contrast.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_pumpkin_soup:1.0.0",
+          "name": "config/fancymenu/ui_themes/pumpkin_soup.json",
+          "type": "File",
+          "artifact": {
+            "size": 9345,
+            "MD5": "d322c4bde872420ddeb2eaa124d0f16a",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/pumpkin_soup.json",
+            "path": "config/fancymenu/ui_themes/pumpkin_soup.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_purple_void:1.0.0",
+          "name": "config/fancymenu/ui_themes/purple_void.json",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "MD5": "79df3b7ab7a74d55e3f5bb70cd996dea",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/purple_void.json",
+            "path": "config/fancymenu/ui_themes/purple_void.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_ui_themes_spooky_season:1.0.0",
+          "name": "config/fancymenu/ui_themes/spooky_season.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "MD5": "c45cc6e6bd9c4a296227e764dcf1e953",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/ui_themes/spooky_season.json",
+            "path": "config/fancymenu/ui_themes/spooky_season.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_blacklist:1.0.0",
+          "name": "config/jei/blacklist.json",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "MD5": "78f1a39821342258f73e542d9ea40e0f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/blacklist.json",
+            "path": "config/jei/blacklist.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_ingredient-list-mod-sort-order:1.0.0",
+          "name": "config/jei/ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 442,
+            "MD5": "3a7cb5e10d38b888e023aa7bbee1e891",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/ingredient-list-mod-sort-order.ini",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_ingredient-list-type-sort-order:1.0.0",
+          "name": "config/jei/ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 86,
+            "MD5": "a297d9637a74577adaed06e68221a8a0",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/ingredient-list-type-sort-order.ini",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_jei-client:1.0.0",
+          "name": "config/jei/jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 10825,
+            "MD5": "cf47ac66b4b62d92ec160bc5e8c69b03",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-client.ini",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_jei-colors:1.0.0",
+          "name": "config/jei/jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1362,
+            "MD5": "2b1d073ff360c11353f0079b7539cb2e",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-colors.ini",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_jei-debug:1.0.0",
+          "name": "config/jei/jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1454,
+            "MD5": "b8f5e776d54844cfe84071acac178805",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-debug.ini",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_jei-mod-id-format:1.0.0",
+          "name": "config/jei/jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 550,
+            "MD5": "a450b7e5023fe11c0d6f7238aaaf71da",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-mod-id-format.ini",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_recipe-category-sort-order:1.0.0",
+          "name": "config/jei/recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 703,
+            "MD5": "bcbf212319d443c6f728b7490097a18f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/recipe-category-sort-order.ini",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_jei_world_server_Minecraft____6adbf73b_lookupHistory:1.0.0",
+          "name": "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
+          "type": "File",
+          "artifact": {
+            "size": 211,
+            "MD5": "19eed98ed63ca9a03c52182ea6a755a9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
+            "path": "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_konkrete_locals_de_de:1.0.0",
+          "name": "config/konkrete/locals/de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/konkrete/locals/de_de.local",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_konkrete_locals_en_us:1.0.0",
+          "name": "config/konkrete/locals/en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/konkrete/locals/en_us.local",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_konkrete_locals_pl_pl:1.0.0",
+          "name": "config/konkrete/locals/pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/konkrete/locals/pl_pl.local",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_konkrete_locals_pt_br:1.0.0",
+          "name": "config/konkrete/locals/pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/konkrete/locals/pt_br.local",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_mega_showdown_config:1.0.0",
+          "name": "config/mega_showdown/config.json",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "MD5": "1525074d58869884e5f336332bbbac37",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/mega_showdown/config.json",
+            "path": "config/mega_showdown/config.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_mythsandlegends_config:1.0.0",
+          "name": "config/mythsandlegends/config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 11563,
+            "MD5": "e42a8cc382e1b9929af6aee4a7d5cd95",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/mythsandlegends/config.toml",
+            "path": "config/mythsandlegends/config.toml"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_mythsandlegends_debts:1.0.0",
+          "name": "config/mythsandlegends/debts.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/mythsandlegends/debts.json",
+            "path": "config/mythsandlegends/debts.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_mythsandlegends_loot_tables_config:1.0.0",
+          "name": "config/mythsandlegends/loot_tables_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 945288,
+            "MD5": "0fbe6377765d0e26e04e54a4edf98ea2",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/mythsandlegends/loot_tables_config.json",
+            "path": "config/mythsandlegends/loot_tables_config.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_main:1.0.0",
+          "name": "config/simpletms/main.json",
+          "type": "File",
+          "artifact": {
+            "size": 1224,
+            "MD5": "4513643eeee510192347ad0a06e159c4",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/main.json",
+            "path": "config/simpletms/main.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_moves_default_tm_moves:1.0.0",
+          "name": "config/simpletms/moves/default_tm_moves.json",
+          "type": "File",
+          "artifact": {
+            "size": 30177,
+            "MD5": "3ef6b194e9062abace6adb73f70deea2",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/moves/default_tm_moves.json",
+            "path": "config/simpletms/moves/default_tm_moves.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_moves_default_tr_moves:1.0.0",
+          "name": "config/simpletms/moves/default_tr_moves.json",
+          "type": "File",
+          "artifact": {
+            "size": 30177,
+            "MD5": "3ef6b194e9062abace6adb73f70deea2",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/moves/default_tr_moves.json",
+            "path": "config/simpletms/moves/default_tr_moves.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_moves_excluded_moves_from_blank_learning:1.0.0",
+          "name": "config/simpletms/moves/excluded_moves_from_blank_learning.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "d751713988987e9331980363e24189ce",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/moves/excluded_moves_from_blank_learning.json",
+            "path": "config/simpletms/moves/excluded_moves_from_blank_learning.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_moves_excluded_moves_from_pokemon_drops:1.0.0",
+          "name": "config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "d751713988987e9331980363e24189ce",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
+            "path": "config/simpletms/moves/excluded_moves_from_pokemon_drops.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_simpletms_moves_excluded_moves_from_tmtr_learning:1.0.0",
+          "name": "config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "d751713988987e9331980363e24189ce",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
+            "path": "config/simpletms/moves/excluded_moves_from_tmtr_learning.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_category-volumes:1.0.0",
+          "name": "config/voicechat/category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/category-volumes.properties",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_player-volumes:1.0.0",
+          "name": "config/voicechat/player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/player-volumes.properties",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_translations:1.0.0",
+          "name": "config/voicechat/translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/translations.properties",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_username-cache:1.0.0",
+          "name": "config/voicechat/username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/username-cache.json",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_voicechat-client:1.0.0",
+          "name": "config/voicechat/voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5063,
+            "MD5": "0405d3c3e5a778276f4db44f4ec95d0c",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_voicechat_voicechat-server:1.0.0",
+          "name": "config/voicechat/voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2830,
+            "MD5": "87405ae8dfda25c3f174993fdcd3da5b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/voicechat-server.properties",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_wover_cached:1.0.0",
+          "name": "config/wover/cached.json",
+          "type": "File",
+          "artifact": {
+            "size": 425,
+            "MD5": "b25cfd3e4a3683d03c0668292e767f7b",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/wover/cached.json",
+            "path": "config/wover/cached.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_wover_client:1.0.0",
+          "name": "config/wover/client.json",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "MD5": "794b9deb7b8e5c0d5abd86238d896736",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/wover/client.json",
+            "path": "config/wover/client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_wover_main:1.0.0",
+          "name": "config/wover/main.json",
+          "type": "File",
+          "artifact": {
+            "size": 158,
+            "MD5": "e1714fff8b68268fc1e4346fe2a958c9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/wover/main.json",
+            "path": "config/wover/main.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_lib_client:1.0.0",
+          "name": "config/xaero/lib/client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "MD5": "dd7d24d2b991f7648671c16d0a74c265",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/client.cfg",
+            "path": "config/xaero/lib/client.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_lib_common:1.0.0",
+          "name": "config/xaero/lib/common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "MD5": "e085e122e32132e1fa73ac927f7ece81",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/common.cfg",
+            "path": "config/xaero/lib/common.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_lib_profiles_default:1.0.0",
+          "name": "config/xaero/lib/profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "MD5": "e6a2491cfa99c4163942c19eb7b4c489",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/profiles/default.cfg",
+            "path": "config/xaero/lib/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_lib_server_profiles_default:1.0.0",
+          "name": "config/xaero/lib/server_profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/server_profiles/default.cfg",
+            "path": "config/xaero/lib/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_client:1.0.0",
+          "name": "config/xaero/minimap/client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "MD5": "007c3c38290561126c7f8ab797406109",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/client.cfg",
+            "path": "config/xaero/minimap/client.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_common:1.0.0",
+          "name": "config/xaero/minimap/common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "MD5": "48d56532be92f58e976a2d1753abdd35",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/common.cfg",
+            "path": "config/xaero/minimap/common.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_default_radar_categories_client:1.0.0",
+          "name": "config/xaero/minimap/default_radar_categories_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/default_radar_categories_client.json",
+            "path": "config/xaero/minimap/default_radar_categories_client.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_default_radar_categories_server:1.0.0",
+          "name": "config/xaero/minimap/default_radar_categories_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 4597,
+            "MD5": "7ffe568a308241b93166af2d45ce79c7",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/default_radar_categories_server.json",
+            "path": "config/xaero/minimap/default_radar_categories_server.json"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_profiles_default:1.0.0",
+          "name": "config/xaero/minimap/profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "MD5": "39b36f582769dd7ea8222f60f7059302",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/profiles/default.cfg",
+            "path": "config/xaero/minimap/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_profiles_info_display_config_default.cfg:1.0.0",
+          "name": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+          "type": "File",
+          "artifact": {
+            "size": 684,
+            "MD5": "64d98932063f0be723920fbdb1de1268",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+            "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_minimap_server_profiles_default:1.0.0",
+          "name": "config/xaero/minimap/server_profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/server_profiles/default.cfg",
+            "path": "config/xaero/minimap/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_world-map_client:1.0.0",
+          "name": "config/xaero/world-map/client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "MD5": "4d8ab9ac6252be924192222be2565546",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/client.cfg",
+            "path": "config/xaero/world-map/client.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_world-map_common:1.0.0",
+          "name": "config/xaero/world-map/common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "MD5": "b5ddb993fe4200e02fec18254463b2c2",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/common.cfg",
+            "path": "config/xaero/world-map/common.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_world-map_profiles_default:1.0.0",
+          "name": "config/xaero/world-map/profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1619,
+            "MD5": "21c979a028cd1efa4cc914ceca5b54b9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/profiles/default.cfg",
+            "path": "config/xaero/world-map/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_xaero_world-map_server_profiles_default:1.0.0",
+          "name": "config/xaero/world-map/server_profiles/default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/server_profiles/default.cfg",
+            "path": "config/xaero/world-map/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "pokevillage.files:resourcepacks_Battle_Tracks_v1.2:1.0.0",
+          "name": "resourcepacks/Battle Tracks v1.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14394261,
+            "MD5": "d681e1bd502b58db5aeedd3898d2df6f",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Battle%20Tracks%20v1.2.zip",
+            "path": "resourcepacks/Battle Tracks v1.2.zip"
+          }
+        },
+        {
+          "id": "pokevillage.files:resourcepacks_Cobblemon_Interface_v1.6.0:1.0.0",
+          "name": "resourcepacks/Cobblemon Interface v1.6.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14108266,
+            "MD5": "03cacbf0b647173ae6707cc74c10866c",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon%20Interface%20v1.6.0.zip",
+            "path": "resourcepacks/Cobblemon Interface v1.6.0.zip"
+          }
+        },
+        {
+          "id": "pokevillage.files:resourcepacks_Cobblemotion_v1.5.1:1.0.0",
+          "name": "resourcepacks/Cobblemotion_v1.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3148542,
+            "MD5": "07ce9e8ea7eea6285ab0d7a939462cdf",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemotion_v1.5.1.zip",
+            "path": "resourcepacks/Cobblemotion_v1.5.1.zip"
+          }
+        },
+        {
+          "id": "pokevillage.files:resourcepacks_Pokemusic-Enviroment_v3.0_COBLEMON:1.0.0",
+          "name": "resourcepacks/Pokemusic-Enviroment v3.0 COBLEMON.zip",
+          "type": "File",
+          "artifact": {
+            "size": 505347807,
+            "MD5": "b2098ce8510801405479d530dcfc9266",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Pokemusic-Enviroment%20v3.0%20COBLEMON.zip",
+            "path": "resourcepacks/Pokemusic-Enviroment v3.0 COBLEMON.zip"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "pokevillage.files:options:1.0.0",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 9211,
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "pokevillage.files:servers:1.0.0",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/servers.dat",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}

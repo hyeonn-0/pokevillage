@@ -1,0 +1,422 @@
+﻿[
+    {
+        "name":  "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+        "size":  1095802,
+        "md5":  "1f332447eadf66a07b33e641816fcd5e"
+    },
+    {
+        "name":  "AmbientSounds_FABRIC_v6.3.8_mc1.21.1.jar",
+        "size":  84820510,
+        "md5":  "cc9e21c796c8078e4d3454007a4bb444"
+    },
+    {
+        "name":  "appleskin-fabric-mc1.21-3.0.6.jar",
+        "size":  1082585,
+        "md5":  "a24c435e84973afd607e20395ecba19d"
+    },
+    {
+        "name":  "architectury-13.0.8-fabric.jar",
+        "size":  600915,
+        "md5":  "702e92d09a4855c6c8aa9e738a48efa4"
+    },
+    {
+        "name":  "athena-fabric-1.21.1-4.0.6.jar",
+        "size":  88425,
+        "md5":  "a549af3b3a32722ab81ff11d9f44f90b"
+    },
+    {
+        "name":  "bclib-21.0.13.jar",
+        "size":  1486843,
+        "md5":  "dea2b315841d5a8167980f39ff3ba526"
+    },
+    {
+        "name":  "better-nether-21.0.11.jar",
+        "size":  23145216,
+        "md5":  "bda45864e3f5e71478192066846f1ca0"
+    },
+    {
+        "name":  "BiomesOPlenty-fabric-1.21.1-21.1.0.14.jar",
+        "size":  22349808,
+        "md5":  "6eb41df90fe722f3203046fcc032454f"
+    },
+    {
+        "name":  "capturexp-fabric-1.7.3-1.3.0.jar",
+        "size":  22848,
+        "md5":  "e6fc02948bb7b46b6554bc6df987e6f2"
+    },
+    {
+        "name":  "cardinal-components-api-6.1.3.jar",
+        "size":  229645,
+        "md5":  "8febe13b1c2df1e90a6fa8b5de8521a4"
+    },
+    {
+        "name":  "chat_heads-0.15.2-fabric-1.21.jar",
+        "size":  84297,
+        "md5":  "58da9f835bca8869a4d42daed086a367"
+    },
+    {
+        "name":  "chefsdelight-1.0.5-fabric-1.21.1.jar",
+        "size":  110480,
+        "md5":  "5b746967ebc5efd0456c7a500b2b5300"
+    },
+    {
+        "name":  "chipped-fabric-1.21.1-4.0.2.jar",
+        "size":  15016830,
+        "md5":  "c98271e7ba961e78e4a589fc53fa71a2"
+    },
+    {
+        "name":  "cloth-config-15.0.140-fabric.jar",
+        "size":  1157166,
+        "md5":  "a2c091b027ad6ba8e54b07020fd45884"
+    },
+    {
+        "name":  "CobbleBadges-fabric-4.0.0+Beta-1+1.21.1.jar",
+        "size":  843407,
+        "md5":  "00a24911205cae63b50dcfc9d36777e2"
+    },
+    {
+        "name":  "cobbledex-1.21.1-fabric-1.2.0.jar",
+        "size":  436466,
+        "md5":  "fa4dc92b0e1fb2dfde4b3d21e3d17f3c"
+    },
+    {
+        "name":  "cobbledgacha-fabric-1.21.1-3.0.3.jar",
+        "size":  1148291,
+        "md5":  "d10f50d2f4bae439b5332707a47292ec"
+    },
+    {
+        "name":  "CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar",
+        "size":  369528,
+        "md5":  "1c38ad40c554bd82109d778daa95ecfe"
+    },
+    {
+        "name":  "Cobbleit-1.0.0.jar",
+        "size":  4064,
+        "md5":  "33f8d1f400b2f85827e241efb5668dda"
+    },
+    {
+        "name":  "Cobblemon-fabric-1.7.3+1.21.1.jar",
+        "size":  135801550,
+        "md5":  "1de64f280372ec94e4376976fb579d52"
+    },
+    {
+        "name":  "cobblemon-farmers-delight-compat-1.1.0.jar",
+        "size":  202832,
+        "md5":  "2ac37e2aafcf6cb72ee4d2a54f11c030"
+    },
+    {
+        "name":  "cobblemonbattleplus-1.1.7.jar",
+        "size":  1375640,
+        "md5":  "358e28b454f8526bd096babdcf3a0d00"
+    },
+    {
+        "name":  "cobblemonchallenge-fabric-2.4.0.jar",
+        "size":  77022,
+        "md5":  "61763aa68bcb7ce0e3f623f5ee6c08a2"
+    },
+    {
+        "name":  "CobblemonIntros-1.0.0.jar",
+        "size":  13961,
+        "md5":  "5cc4feb85aaed11d2e06def513c29d34"
+    },
+    {
+        "name":  "cobblemonraiddens-fabric-0.11.3+1.21.1.jar",
+        "size":  2690197,
+        "md5":  "30283db43eee22f57df10d52a39323e6"
+    },
+    {
+        "name":  "cobblemon_snap-fabric-1.1.3.jar",
+        "size":  4947119,
+        "md5":  "ff41384a357952c199086c210c5330af"
+    },
+    {
+        "name":  "cobblenav-fabric-2.3.3.jar",
+        "size":  1090821,
+        "md5":  "efbc5e5e05966cfd45f94ea0f8591cf2"
+    },
+    {
+        "name":  "cobeffectiveness-fabric-0.3.jar",
+        "size":  94372,
+        "md5":  "88943accc33d8c7350dc258ef07567e9"
+    },
+    {
+        "name":  "complete-cobblemon-collection-myths-and-legends-compat-2.1.0.jar",
+        "size":  18494181,
+        "md5":  "b6a6cf3b4f4ed2ee7c2b3806f8bee599"
+    },
+    {
+        "name":  "CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar",
+        "size":  1247692,
+        "md5":  "df9871e46436ce7887579037d5074b9a"
+    },
+    {
+        "name":  "extra-move-anims-cobblemon-1.7v1.0.2.jar",
+        "size":  584731,
+        "md5":  "f6db659fcf908169c4d9aac01cef09fc"
+    },
+    {
+        "name":  "fabric-api-0.116.13+1.21.1.jar",
+        "size":  2427135,
+        "md5":  "9a8805aac7af9efc41b4be9e311d0040"
+    },
+    {
+        "name":  "fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+        "size":  8076848,
+        "md5":  "dff437aac8aae6eb76ae9db6b6ea9cb0"
+    },
+    {
+        "name":  "fancy-entity-renderer-fabric-1.21-0.4.8.jar",
+        "size":  409081,
+        "md5":  "6b24a6090e4179dd63f61491ef5f3b25"
+    },
+    {
+        "name":  "fancymenu_fabric_3.9.6_MC_1.21.1.jar",
+        "size":  25596013,
+        "md5":  "4bab5ebf03c0b8f639ca76850c37ecc0"
+    },
+    {
+        "name":  "FarmersDelight-1.21.1-3.3.3+refabricated.jar",
+        "size":  3240212,
+        "md5":  "0a509a64f871c958ab659fa684ea10c4"
+    },
+    {
+        "name":  "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+        "size":  633065,
+        "md5":  "eba1a7f9d9976e983a2b9eb5e915e087"
+    },
+    {
+        "name":  "ftb-chunks-fabric-2101.1.20.jar",
+        "size":  647771,
+        "md5":  "824c38a561b9f9edd0a06742c4d69c52"
+    },
+    {
+        "name":  "ftb-library-fabric-2101.1.32.jar",
+        "size":  1411643,
+        "md5":  "46da20daa4cc677c22456a62f30205dd"
+    },
+    {
+        "name":  "ftb-teams-fabric-2101.1.10.jar",
+        "size":  298292,
+        "md5":  "cf325f7dc2c5f527d991f116bec22441"
+    },
+    {
+        "name":  "ftbxaerocompat-fabric-1.1.4.jar",
+        "size":  108860,
+        "md5":  "2ae1fcdd58cdb192ed459245c1ecd1cd"
+    },
+    {
+        "name":  "geckolib-fabric-1.21.1-4.9.2.jar",
+        "size":  660416,
+        "md5":  "fe791e7b10c8b7c736ea3e57747eac09"
+    },
+    {
+        "name":  "GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+        "size":  329237,
+        "md5":  "e92577af702e3991e844dbc598de0436"
+    },
+    {
+        "name":  "GymBadges-1.1.jar",
+        "size":  77360,
+        "md5":  "f0a07545c1e4f0b09a492d3e224b9fb8"
+    },
+    {
+        "name":  "handcrafted-fabric-1.21.1-4.0.3.jar",
+        "size":  7127377,
+        "md5":  "4ae4f2fe6a71eaeeade3ce0eb1db7997"
+    },
+    {
+        "name":  "iris-fabric-1.8.8+mc1.21.1.jar",
+        "size":  2690177,
+        "md5":  "1179fe09b9ba970e84ed59259adfe65a"
+    },
+    {
+        "name":  "jei-1.21.1-fabric-19.27.0.336.jar",
+        "size":  1561528,
+        "md5":  "b4988fdc0d53bc418d6285e4b3d4bf16"
+    },
+    {
+        "name":  "konkrete_fabric_1.9.9_MC_1.21.jar",
+        "size":  786695,
+        "md5":  "287ee9cfc6015f706672fd8c20f5ef9c"
+    },
+    {
+        "name":  "legendarymonuments-fabric-1.21.1-8.0.3.jar",
+        "size":  16595316,
+        "md5":  "a9de3a0ba4173c8fa8b16dc8082fe606"
+    },
+    {
+        "name":  "letsdo-API-fabric-1.3.0-beta-release-fabric.jar",
+        "size":  1622017,
+        "md5":  "533902436eb65361dab7c5738c0422c2"
+    },
+    {
+        "name":  "letsdo-bakery-fabric-2.1.6.jar",
+        "size":  2033208,
+        "md5":  "8fb6722a858853a749039bd9a81e1df9"
+    },
+    {
+        "name":  "letsdo-farm_and_charm-fabric-1.1.22.jar",
+        "size":  2557418,
+        "md5":  "4d755f5c2e3fd7fd6920046c813c161c"
+    },
+    {
+        "name":  "letsdo-furniture-fabric-1.1.4.jar",
+        "size":  4158006,
+        "md5":  "9ffa57d51d56c0bd42ea97057525ed60"
+    },
+    {
+        "name":  "letsdo-meadow-fabric-1.4.8.jar",
+        "size":  2141938,
+        "md5":  "b650bbb566d43bd83ac7c57a6ac2e03e"
+    },
+    {
+        "name":  "letsdo-vinery-fabric-1.5.3.jar",
+        "size":  2984330,
+        "md5":  "464fba7941a41f89c991658038bc0933"
+    },
+    {
+        "name":  "lithostitched-1.7.13-fabric-21.1.jar",
+        "size":  827470,
+        "md5":  "1654f22b58c0aa48ec1620d85f2d87e6"
+    },
+    {
+        "name":  "mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar",
+        "size":  17213370,
+        "md5":  "0e3197dd14c98ce0240d498114cfe143"
+    },
+    {
+        "name":  "melody_fabric_1.0.10_MC_1.21.jar",
+        "size":  188035,
+        "md5":  "0f1bfbf2dd4fa047a1616fc448f3b856"
+    },
+    {
+        "name":  "modmenu-11.0.4.jar",
+        "size":  973059,
+        "md5":  "b2b9c53a887c100f780708c4f36db6c4"
+    },
+    {
+        "name":  "MouseTweaks-fabric-mc1.21-2.26.jar",
+        "size":  75984,
+        "md5":  "1d39ead1641ef522bc7ae92383f21da8"
+    },
+    {
+        "name":  "MythsAndLegends-fabric-1.9.0.jar",
+        "size":  3249725,
+        "md5":  "834973489f5cd619accf1f74ee301c0f"
+    },
+    {
+        "name":  "notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
+        "size":  1948132,
+        "md5":  "6afb17a78bec2140a3904dcd6d1a3d92"
+    },
+    {
+        "name":  "owo-lib-0.12.15.4+1.21.jar",
+        "size":  1183559,
+        "md5":  "3627aee17111e12a8c66928f5d7a3fba"
+    },
+    {
+        "name":  "placeholder-api-2.4.2+1.21.jar",
+        "size":  232325,
+        "md5":  "4de8568a088a276c94168514d625413d"
+    },
+    {
+        "name":  "PokemonToItem-fabric-0.2.0.jar",
+        "size":  4897890,
+        "md5":  "620876dcafd059789543a744917dca31"
+    },
+    {
+        "name":  "rctapi-fabric-1.21.1-0.15.2-beta.jar",
+        "size":  234250,
+        "md5":  "fe02b1985ce18f764f41d8e802d38035"
+    },
+    {
+        "name":  "rctmod-fabric-1.21.1-0.18.1-beta.jar",
+        "size":  6757956,
+        "md5":  "25c546e42d63947ac2ecdcd12823cc42"
+    },
+    {
+        "name":  "reactivemusic-1.2.2+1.21.1.jar",
+        "size":  294707477,
+        "md5":  "aa1746c382e15d8ca45bbfb9f32c7a51"
+    },
+    {
+        "name":  "RecallBeams-0.1.0-onecolor.jar",
+        "size":  18255,
+        "md5":  "d76237c07bc0d275f0b7574b75056fe9"
+    },
+    {
+        "name":  "resourcefullib-fabric-1.21-3.0.12.jar",
+        "size":  485586,
+        "md5":  "89dac4248b76747800fbc00fa063825e"
+    },
+    {
+        "name":  "SimpleTMs-fabric-2.3.3.jar",
+        "size":  821382,
+        "md5":  "9a9d474ca102e1d04fa89926fa837896"
+    },
+    {
+        "name":  "sodium-fabric-0.6.13+mc1.21.1.jar",
+        "size":  1297761,
+        "md5":  "aa37ba0048a1af6b554b137088cad484"
+    },
+    {
+        "name":  "talking-heads-1.1.3+1.21.1+fabric.jar",
+        "size":  286178,
+        "md5":  "a18d6861e4848f38e729da59049f6b56"
+    },
+    {
+        "name":  "TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+        "size":  337989,
+        "md5":  "cf9f9ea80cd7f8febebbe1752f23b68f"
+    },
+    {
+        "name":  "Terralith_1.21.x_v2.6.2.jar",
+        "size":  2813817,
+        "md5":  "7d2aa346b66270e770fee79e5b4541d6"
+    },
+    {
+        "name":  "timcore-fabric-1.7.3-1.32.0.jar",
+        "size":  304444,
+        "md5":  "f206df5480d269c0c0fe27846acb1d89"
+    },
+    {
+        "name":  "toms_storage_fabric-1.21-2.3.0.jar",
+        "size":  1962781,
+        "md5":  "46341f7e08a115bcc3b5b114dff671fb"
+    },
+    {
+        "name":  "travelersbackpack-fabric-1.21.1-10.1.36.jar",
+        "size":  1498971,
+        "md5":  "ca3b049dfdd3e441b9505b2c1423e9fa"
+    },
+    {
+        "name":  "voicechat-fabric-1.21.1-2.6.20.jar",
+        "size":  5361828,
+        "md5":  "eceef4cce4351ac0180ddeb125899a43"
+    },
+    {
+        "name":  "worldweaver-21.0.13.jar",
+        "size":  2364215,
+        "md5":  "6b2ca5e70ba245a74a7cbe71dd0a41bb"
+    },
+    {
+        "name":  "xaerominimap-fabric-1.21.1-26.2.0.jar",
+        "size":  2220634,
+        "md5":  "ebb04053c27a7601db7ebe71a049a387"
+    },
+    {
+        "name":  "xaeroworldmap-fabric-1.21.1-1.42.0.jar",
+        "size":  1435557,
+        "md5":  "ff9f3b5064c83bfdc8ca26e4c78b78bd"
+    },
+    {
+        "name":  "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+        "size":  1131265,
+        "md5":  "aadf11f5a793296be7c195e1ca388492"
+    },
+    {
+        "name":  "zamega-fabric-1.7.3.jar",
+        "size":  2387420,
+        "md5":  "42019a1020a2c9ffccf529a42c968a16"
+    }
+]

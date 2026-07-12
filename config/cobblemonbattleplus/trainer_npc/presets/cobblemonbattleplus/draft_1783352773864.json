@@ -1,0 +1,220 @@
+{
+  "display_name": "leedoha__ Trainer",
+  "texture_path": "minecraft:textures/entity/player/wide/steve.png",
+  "level": 15,
+  "forced_resource_identifier": "cobblemon:standard",
+  "name_visible": true,
+  "no_ai": true,
+  "invulnerable": true,
+  "silent": true,
+  "movable": false,
+  "level_mode": "NORMAL",
+  "flat_level": 50,
+  "opponent_level_bonus": 0,
+  "battle_format": "GEN_9_SINGLES",
+  "cooldown_in_seconds": 0,
+  "remove_after_battle": false,
+  "apply_battle_damage": true,
+  "party": [
+    {
+      "species": "cobblemon:torchic",
+      "level": 15,
+      "role": "trainer",
+      "aspects": [
+        "male"
+      ],
+      "moves": [
+        "flamecharge",
+        "quickattack",
+        "ember",
+        "peck"
+      ],
+      "ability": "blaze",
+      "nature": "cobblemon:brave",
+      "ivs": {
+        "attack": 16,
+        "defence": 2,
+        "hp": 12,
+        "speed": 1,
+        "special_defence": 24,
+        "special_attack": 19
+      },
+      "evs": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 2,
+        "special_attack": 1
+      },
+      "tera_type": "cobblemon:fire"
+    },
+    {
+      "species": "cobblemon:mrmime",
+      "level": 1,
+      "role": "trainer",
+      "aspects": [
+        "male"
+      ],
+      "moves": [
+        "tickle",
+        "pound",
+        "psywave",
+        "wideguard"
+      ],
+      "ability": "filter",
+      "nature": "cobblemon:jolly",
+      "ivs": {
+        "attack": 14,
+        "defence": 21,
+        "hp": 5,
+        "speed": 3,
+        "special_defence": 21,
+        "special_attack": 12
+      },
+      "evs": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 0,
+        "special_attack": 0
+      },
+      "tera_type": "cobblemon:fairy"
+    },
+    {
+      "species": "cobblemon:rayquaza",
+      "level": 100,
+      "role": "trainer",
+      "aspects": [
+        "none",
+        "genderless",
+        "shiny"
+      ],
+      "moves": [
+        "dragonascent",
+        "outrage",
+        "hurricane",
+        "fly"
+      ],
+      "ability": "airlock",
+      "nature": "cobblemon:lonely",
+      "ivs": {
+        "attack": 1,
+        "defence": 8,
+        "hp": 26,
+        "speed": 13,
+        "special_defence": 7,
+        "special_attack": 1
+      },
+      "evs": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 0,
+        "special_attack": 0
+      },
+      "tera_type": "cobblemon:flying"
+    },
+    {
+      "species": "cobblemon:rayquaza",
+      "level": 99,
+      "role": "trainer",
+      "aspects": [
+        "genderless"
+      ],
+      "moves": [
+        "hyperbeam",
+        "outrage",
+        "hurricane",
+        "fly"
+      ],
+      "ability": "airlock",
+      "nature": "cobblemon:impish",
+      "ivs": {
+        "attack": 22,
+        "defence": 11,
+        "hp": 7,
+        "speed": 18,
+        "special_defence": 21,
+        "special_attack": 31
+      },
+      "evs": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 0,
+        "special_attack": 0
+      },
+      "tera_type": "cobblemon:dragon"
+    },
+    {
+      "species": "cobblemon:rayquaza",
+      "level": 60,
+      "role": "trainer",
+      "aspects": [
+        "genderless"
+      ],
+      "moves": [
+        "rest",
+        "hypervoice",
+        "dragonpulse",
+        "extremespeed"
+      ],
+      "ability": "airlock",
+      "nature": "cobblemon:jolly",
+      "ivs": {
+        "attack": 6,
+        "defence": 1,
+        "hp": 9,
+        "speed": 16,
+        "special_defence": 9,
+        "special_attack": 10
+      },
+      "evs": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 0,
+        "special_attack": 0
+      },
+      "tera_type": "cobblemon:dragon"
+    },
+    {
+      "species": "cobblemon:greninja",
+      "level": 100,
+      "role": "trainer",
+      "aspects": [
+        "female"
+      ],
+      "moves": [
+        "nightslash",
+        "watershuriken",
+        "substitute",
+        "aerialace"
+      ],
+      "ability": "battlebond",
+      "nature": "cobblemon:adamant",
+      "ivs": {
+        "attack": 3,
+        "defence": 5,
+        "hp": 21,
+        "speed": 2,
+        "special_defence": 0,
+        "special_attack": 30
+      },
+      "evs": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "speed": 0,
+        "special_defence": 0,
+        "special_attack": 0
+      },
+      "tera_type": "cobblemon:dark"
+    }
+  ]
+}
