@@ -15,7 +15,9 @@ const CONFIG = {
   serverAddress: 'create.kinetichosting.gg',
   serverName: 'PokeVillage',
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.1',             // bump when distribution changes
+  serverVersion: '1.0.2',             // bump when distribution changes
+  // Server-only mods (environment: server) must NOT be shipped to clients — put them on the server.
+  excludeMods: ['pokevillage-0.1.0.jar'],
   mcVersion: '1.21.1',
   fabricLoader: '0.19.3',             // verified latest loader for 1.21.1 (meta.fabricmc.net)
   fabricLoaderSize: 1976502,
@@ -89,7 +91,7 @@ const fabricModule = {
 }
 
 // ---- mods -> FabricMod (managed, from Release) ----
-const modModules = mods.map((m) => ({
+const modModules = mods.filter((m) => !(CONFIG.excludeMods || []).includes(m.name)).map((m) => ({
   id: `pokevillage.mods:${slug(m.name)}:1.0.0`,
   name: m.name.replace(/\.jar$/i, ''),
   type: 'FabricMod',
