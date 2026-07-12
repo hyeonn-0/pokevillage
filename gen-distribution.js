@@ -15,7 +15,7 @@ const CONFIG = {
   serverAddress: 'create.kinetichosting.gg',
   serverName: 'PokeVillage',
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.0',             // bump when distribution changes
+  serverVersion: '1.0.1',             // bump when distribution changes
   mcVersion: '1.21.1',
   fabricLoader: '0.19.3',             // verified latest loader for 1.21.1 (meta.fabricmc.net)
   fabricLoaderSize: 1976502,

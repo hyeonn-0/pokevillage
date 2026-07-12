@@ -12,7 +12,7 @@
       "name": "PokeVillage",
       "description": "포켓빌리지 서버",
       "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "create.kinetichosting.gg",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -826,6 +826,17 @@
             "MD5": "620876dcafd059789543a744917dca31",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/PokemonToItem-fabric-0.2.0.jar",
             "path": "PokemonToItem-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:pokevillage-0.1.0:1.0.0",
+          "name": "pokevillage-0.1.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 296035,
+            "MD5": "6c72d1f6cb5b58f6b47311e2cf123d8d",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/pokevillage-0.1.0.jar",
+            "path": "pokevillage-0.1.0.jar"
           }
         },
         {
