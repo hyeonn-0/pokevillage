@@ -51,7 +51,9 @@ const fabricModule = {
     url: `https://maven.fabricmc.net/net/fabricmc/fabric-loader/${CONFIG.fabricLoader}/fabric-loader-${CONFIG.fabricLoader}.jar`,
   },
   subModules: [{
-    id: `net.fabricmc:fabric-loader:${CONFIG.fabricLoader}`,
+    // NOTE: this id becomes a folder name (common/versions/<id>/<id>.json), so it must be
+    // filesystem-safe (no ':'). Use the fabric profile's own id, e.g. fabric-loader-0.19.3-1.21.1.
+    id: `fabric-loader-${CONFIG.fabricLoader}-${CONFIG.mcVersion}`,
     name: 'Fabric (Version Manifest)',
     type: 'VersionManifest',
     artifact: {

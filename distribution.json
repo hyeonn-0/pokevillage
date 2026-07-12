@@ -34,7 +34,7 @@
           },
           "subModules": [
             {
-              "id": "net.fabricmc:fabric-loader:0.19.3",
+              "id": "fabric-loader-0.19.3-1.21.1",
               "name": "Fabric (Version Manifest)",
               "type": "VersionManifest",
               "artifact": {
