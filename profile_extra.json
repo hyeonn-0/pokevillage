@@ -253,6 +253,12 @@
   },
   {
     "category": "config",
+    "path": "config/fancymenu/assets/logo.png",
+    "size": 473541,
+    "md5": "b7b84b5fbd88b5e1dc38f5edf1a52fd9"
+  },
+  {
+    "category": "config",
     "path": "config/fancymenu/customizablemenus.txt",
     "size": 26,
     "md5": "fe5f2f91fcc0653b93634a414aa90cd5"

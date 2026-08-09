@@ -13,9 +13,12 @@ const CONFIG = {
   branch: 'main',
   releaseTag: 'modpack-v1',           // bump each modpack version
   serverAddress: 'create.kinetichosting.gg',
-  serverName: 'PokeVillage',
+  serverName: '포켓몬 크로니클',
+  // serverId is the launcher's instance folder name. Renaming it makes Helios treat this as
+  // a brand new server and re-download everything into a fresh directory, so the branding
+  // change above deliberately stops at the display name.
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.5',             // bump when distribution changes
+  serverVersion: '1.0.6',             // bump when distribution changes
   // Server-only mods (environment: server) must NOT be shipped to clients — put them on the server.
   excludeMods: ['pokevillage-0.1.0.jar'],
   mcVersion: '1.21.1',
@@ -157,17 +160,19 @@ const fileModules = extra.filter((e) => !isExcluded(e.path)).map((e) => {
 
 const distribution = {
   version: '1.0.0',
-  discord: { clientId: 'CHANGE_ME', smallImageText: 'PokeVillage', smallImageKey: 'logo' },
+  // clientId is still unset so Rich Presence does not actually run yet; the labels are
+  // branded anyway so it reads correctly once a Discord app id is filled in.
+  discord: { clientId: 'CHANGE_ME', smallImageText: '포켓몬 크로니클', smallImageKey: 'logo' },
   rss: '',
   servers: [{
     id: CONFIG.serverId,
     name: CONFIG.serverName,
-    description: '포켓빌리지 서버',
+    description: '포켓몬 크로니클 · 히스토리 & 테일즈',
     icon: `${rawBase}/icon.png`,
     version: CONFIG.serverVersion,
     address: CONFIG.serverAddress,
     minecraftVersion: CONFIG.mcVersion,
-    discord: { shortId: 'PokeVillage', largeImageText: 'PokeVillage', largeImageKey: 'server' },
+    discord: { shortId: '포켓몬 크로니클', largeImageText: '포켓몬 크로니클', largeImageKey: 'server' },
     mainServer: true,
     autoconnect: true,
     modules: [fabricModule, ...modModules, ...fileModules],

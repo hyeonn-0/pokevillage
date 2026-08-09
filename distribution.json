@@ -2,22 +2,22 @@
   "version": "1.0.0",
   "discord": {
     "clientId": "CHANGE_ME",
-    "smallImageText": "PokeVillage",
+    "smallImageText": "포켓몬 크로니클",
     "smallImageKey": "logo"
   },
   "rss": "",
   "servers": [
     {
       "id": "PokeVillage-1.21.1",
-      "name": "PokeVillage",
-      "description": "포켓빌리지 서버",
+      "name": "포켓몬 크로니클",
+      "description": "포켓몬 크로니클 · 히스토리 & 테일즈",
       "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "address": "create.kinetichosting.gg",
       "minecraftVersion": "1.21.1",
       "discord": {
-        "shortId": "PokeVillage",
-        "largeImageText": "PokeVillage",
+        "shortId": "포켓몬 크로니클",
+        "largeImageText": "포켓몬 크로니클",
         "largeImageKey": "server"
       },
       "mainServer": true,
@@ -1785,6 +1785,17 @@
             "MD5": "d2169e9d052e5f559019acbf69ca4889",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/assets/bg.png",
             "path": "config/fancymenu/assets/bg.png"
+          }
+        },
+        {
+          "id": "pokevillage.files:config_fancymenu_assets_logo:1.0.0",
+          "name": "config/fancymenu/assets/logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 473541,
+            "MD5": "b7b84b5fbd88b5e1dc38f5edf1a52fd9",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/assets/logo.png",
+            "path": "config/fancymenu/assets/logo.png"
           }
         },
         {
