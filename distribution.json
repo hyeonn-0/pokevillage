@@ -12,7 +12,7 @@
       "name": "PokeVillage",
       "description": "포켓빌리지 서버",
       "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "create.kinetichosting.gg",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -1342,7 +1342,6 @@
           "type": "File",
           "artifact": {
             "size": 1327,
-            "MD5": "406b4584562fb60304a8adc824de0000",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/appleskin.json5",
             "path": "config/appleskin.json5"
           }
@@ -1364,7 +1363,6 @@
           "type": "File",
           "artifact": {
             "size": 217,
-            "MD5": "0f2f6b3dfa4f13e339b6b4413ac742fa",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/bclib/client.json",
             "path": "config/bclib/client.json"
           }
@@ -1386,7 +1384,6 @@
           "type": "File",
           "artifact": {
             "size": 228,
-            "MD5": "5dfe2cf4e1465794633b15b274fc6958",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/betternether/client.json",
             "path": "config/betternether/client.json"
           }
@@ -1474,7 +1471,6 @@
           "type": "File",
           "artifact": {
             "size": 229,
-            "MD5": "582cc3f28157f02c5504e49bc7e4a9f2",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/chat_heads.json5",
             "path": "config/chat_heads.json5"
           }
@@ -1507,7 +1503,6 @@
           "type": "File",
           "artifact": {
             "size": 531,
-            "MD5": "06f234f20bdd4b6cdb0eb46745d0fe4e",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledex/settings.json",
             "path": "config/cobbledex/settings.json"
           }
@@ -1529,7 +1524,6 @@
           "type": "File",
           "artifact": {
             "size": 39,
-            "MD5": "10dc29fe21361c8c2f0715d4b32cc18a",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobbledollars/client.json",
             "path": "config/cobbledollars/client.json"
           }
@@ -1606,7 +1600,6 @@
           "type": "File",
           "artifact": {
             "size": 978,
-            "MD5": "bd5ce18abe93e2c36a98c9e4e4ebb596",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemonraiddens/client.json5",
             "path": "config/cobblemonraiddens/client.json5"
           }
@@ -1716,7 +1709,6 @@
           "type": "File",
           "artifact": {
             "size": 600,
-            "MD5": "893635431446df5898e50ef7a3a2fe74",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblemon_snap/storage.json",
             "path": "config/cobblemon_snap/storage.json"
           }
@@ -1727,7 +1719,6 @@
           "type": "File",
           "artifact": {
             "size": 400,
-            "MD5": "08470b06df8553a0ce61018b36af3f52",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/cobblenav/client-config.json",
             "path": "config/cobblenav/client-config.json"
           }
@@ -1749,7 +1740,6 @@
           "type": "File",
           "artifact": {
             "size": 23,
-            "MD5": "235bb114cb2741da4a4dd79c3f559c15",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/creativecore-client.json",
             "path": "config/creativecore-client.json"
           }
@@ -1771,7 +1761,6 @@
           "type": "File",
           "artifact": {
             "size": 290,
-            "MD5": "fccef670ff415666df1bdd4467ee4827",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fabric/indigo-renderer.properties",
             "path": "config/fabric/indigo-renderer.properties"
           }
@@ -1837,7 +1826,6 @@
           "type": "File",
           "artifact": {
             "size": 42,
-            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/legacy_checklist.txt",
             "path": "config/fancymenu/legacy_checklist.txt"
           }
@@ -1848,7 +1836,6 @@
           "type": "File",
           "artifact": {
             "size": 4398,
-            "MD5": "21540080cc1853fc45e858015624434a",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/options.txt",
             "path": "config/fancymenu/options.txt"
           }
@@ -1958,7 +1945,6 @@
           "type": "File",
           "artifact": {
             "size": 23,
-            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/fancymenu/user_variables.db",
             "path": "config/fancymenu/user_variables.db"
           }
@@ -1969,7 +1955,6 @@
           "type": "File",
           "artifact": {
             "size": 281,
-            "MD5": "57aa52c3e1378452aa4c5f34f6914f26",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/farmersdelight-client.json",
             "path": "config/farmersdelight-client.json"
           }
@@ -2013,7 +1998,6 @@
           "type": "File",
           "artifact": {
             "size": 8321,
-            "MD5": "7111d4868624878ce894a0307acf3ec6",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftbchunks-client.snbt",
             "path": "config/ftbchunks-client.snbt"
           }
@@ -2035,7 +2019,6 @@
           "type": "File",
           "artifact": {
             "size": 1728,
-            "MD5": "cdd3f095cda8f077c848da2c2a0764aa",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ftblibrary-client.snbt",
             "path": "config/ftblibrary-client.snbt"
           }
@@ -2057,7 +2040,6 @@
           "type": "File",
           "artifact": {
             "size": 31,
-            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/iris-excluded.json",
             "path": "config/iris-excluded.json"
           }
@@ -2068,108 +2050,8 @@
           "type": "File",
           "artifact": {
             "size": 315,
-            "MD5": "1f05af1ffb2950ad829698826cf0c85b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/iris.properties",
             "path": "config/iris.properties"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_blacklist:1.0.0",
-          "name": "config/jei/blacklist.json",
-          "type": "File",
-          "artifact": {
-            "size": 19,
-            "MD5": "78f1a39821342258f73e542d9ea40e0f",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/blacklist.json",
-            "path": "config/jei/blacklist.json"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_ingredient-list-mod-sort-order:1.0.0",
-          "name": "config/jei/ingredient-list-mod-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 442,
-            "MD5": "3a7cb5e10d38b888e023aa7bbee1e891",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/ingredient-list-mod-sort-order.ini",
-            "path": "config/jei/ingredient-list-mod-sort-order.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_ingredient-list-type-sort-order:1.0.0",
-          "name": "config/jei/ingredient-list-type-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 86,
-            "MD5": "a297d9637a74577adaed06e68221a8a0",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/ingredient-list-type-sort-order.ini",
-            "path": "config/jei/ingredient-list-type-sort-order.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_jei-client:1.0.0",
-          "name": "config/jei/jei-client.ini",
-          "type": "File",
-          "artifact": {
-            "size": 10825,
-            "MD5": "cf47ac66b4b62d92ec160bc5e8c69b03",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-client.ini",
-            "path": "config/jei/jei-client.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_jei-colors:1.0.0",
-          "name": "config/jei/jei-colors.ini",
-          "type": "File",
-          "artifact": {
-            "size": 1362,
-            "MD5": "2b1d073ff360c11353f0079b7539cb2e",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-colors.ini",
-            "path": "config/jei/jei-colors.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_jei-debug:1.0.0",
-          "name": "config/jei/jei-debug.ini",
-          "type": "File",
-          "artifact": {
-            "size": 1454,
-            "MD5": "b8f5e776d54844cfe84071acac178805",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-debug.ini",
-            "path": "config/jei/jei-debug.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_jei-mod-id-format:1.0.0",
-          "name": "config/jei/jei-mod-id-format.ini",
-          "type": "File",
-          "artifact": {
-            "size": 550,
-            "MD5": "a450b7e5023fe11c0d6f7238aaaf71da",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/jei-mod-id-format.ini",
-            "path": "config/jei/jei-mod-id-format.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_recipe-category-sort-order:1.0.0",
-          "name": "config/jei/recipe-category-sort-order.ini",
-          "type": "File",
-          "artifact": {
-            "size": 703,
-            "MD5": "bcbf212319d443c6f728b7490097a18f",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/recipe-category-sort-order.ini",
-            "path": "config/jei/recipe-category-sort-order.ini"
-          }
-        },
-        {
-          "id": "pokevillage.files:config_jei_world_server_Minecraft____6adbf73b_lookupHistory:1.0.0",
-          "name": "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
-          "type": "File",
-          "artifact": {
-            "size": 211,
-            "MD5": "19eed98ed63ca9a03c52182ea6a755a9",
-            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json",
-            "path": "config/jei/world/server/Minecraft____6adbf73b/lookupHistory.json"
           }
         },
         {
@@ -2255,7 +2137,6 @@
           "type": "File",
           "artifact": {
             "size": 840,
-            "MD5": "6f801fc101c146e1c993f05544858c34",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/modmenu.json",
             "path": "config/modmenu.json"
           }
@@ -2266,7 +2147,6 @@
           "type": "File",
           "artifact": {
             "size": 135,
-            "MD5": "ff577ca09e989c07c056c7cdff465be3",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/MouseTweaks.cfg",
             "path": "config/MouseTweaks.cfg"
           }
@@ -2310,7 +2190,6 @@
           "type": "File",
           "artifact": {
             "size": 3357,
-            "MD5": "3f3d7ed03466549ea2daa6c566c2fb93",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/notenoughanimations.json",
             "path": "config/notenoughanimations.json"
           }
@@ -2321,7 +2200,6 @@
           "type": "File",
           "artifact": {
             "size": 808,
-            "MD5": "bf5a428182540dd355d374132ef2fe37",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/rctmod-client.toml",
             "path": "config/rctmod-client.toml"
           }
@@ -2343,7 +2221,6 @@
           "type": "File",
           "artifact": {
             "size": 239,
-            "MD5": "d41fe461a9504918c63be2fe0934acd5",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/ReactiveMusic.json5",
             "path": "config/ReactiveMusic.json5"
           }
@@ -2431,7 +2308,6 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "MD5": "2c1b281c154d61345be6f7dc2038955b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-fingerprint.json",
             "path": "config/sodium-fingerprint.json"
           }
@@ -2442,7 +2318,6 @@
           "type": "File",
           "artifact": {
             "size": 258,
-            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-mixins.properties",
             "path": "config/sodium-mixins.properties"
           }
@@ -2453,7 +2328,6 @@
           "type": "File",
           "artifact": {
             "size": 679,
-            "MD5": "ce71803a1bf6a3956c0e9e0c4fd1f4e8",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodium-options.json",
             "path": "config/sodium-options.json"
           }
@@ -2464,7 +2338,6 @@
           "type": "File",
           "artifact": {
             "size": 655,
-            "MD5": "1aa7ab78fb5b1f74d98a096821d7ac08",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/sodiumdynamiclights-client.toml",
             "path": "config/sodiumdynamiclights-client.toml"
           }
@@ -2475,7 +2348,6 @@
           "type": "File",
           "artifact": {
             "size": 218,
-            "MD5": "92981b0cc119348102b15d604b88740b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/talkingheads.json5",
             "path": "config/talkingheads.json5"
           }
@@ -2530,7 +2402,6 @@
           "type": "File",
           "artifact": {
             "size": 97,
-            "MD5": "31ba5caa4bcc56c2527e5d001e4f0f07",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/transition.json",
             "path": "config/transition.json"
           }
@@ -2552,7 +2423,6 @@
           "type": "File",
           "artifact": {
             "size": 47,
-            "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/trender.json",
             "path": "config/trender.json"
           }
@@ -2574,7 +2444,6 @@
           "type": "File",
           "artifact": {
             "size": 46,
-            "MD5": "47731f53ffef4a8a57c766a8091a5651",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/category-volumes.properties",
             "path": "config/voicechat/category-volumes.properties"
           }
@@ -2585,7 +2454,6 @@
           "type": "File",
           "artifact": {
             "size": 44,
-            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/player-volumes.properties",
             "path": "config/voicechat/player-volumes.properties"
           }
@@ -2596,7 +2464,6 @@
           "type": "File",
           "artifact": {
             "size": 1182,
-            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/translations.properties",
             "path": "config/voicechat/translations.properties"
           }
@@ -2607,7 +2474,6 @@
           "type": "File",
           "artifact": {
             "size": 2,
-            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/username-cache.json",
             "path": "config/voicechat/username-cache.json"
           }
@@ -2618,7 +2484,6 @@
           "type": "File",
           "artifact": {
             "size": 5063,
-            "MD5": "0405d3c3e5a778276f4db44f4ec95d0c",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/voicechat-client.properties",
             "path": "config/voicechat/voicechat-client.properties"
           }
@@ -2629,7 +2494,6 @@
           "type": "File",
           "artifact": {
             "size": 2830,
-            "MD5": "87405ae8dfda25c3f174993fdcd3da5b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/voicechat/voicechat-server.properties",
             "path": "config/voicechat/voicechat-server.properties"
           }
@@ -2640,7 +2504,6 @@
           "type": "File",
           "artifact": {
             "size": 425,
-            "MD5": "b25cfd3e4a3683d03c0668292e767f7b",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/wover/cached.json",
             "path": "config/wover/cached.json"
           }
@@ -2651,7 +2514,6 @@
           "type": "File",
           "artifact": {
             "size": 310,
-            "MD5": "794b9deb7b8e5c0d5abd86238d896736",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/wover/client.json",
             "path": "config/wover/client.json"
           }
@@ -2673,7 +2535,6 @@
           "type": "File",
           "artifact": {
             "size": 26,
-            "MD5": "dd7d24d2b991f7648671c16d0a74c265",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/client.cfg",
             "path": "config/xaero/lib/client.cfg"
           }
@@ -2684,7 +2545,6 @@
           "type": "File",
           "artifact": {
             "size": 236,
-            "MD5": "e085e122e32132e1fa73ac927f7ece81",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/common.cfg",
             "path": "config/xaero/lib/common.cfg"
           }
@@ -2695,7 +2555,6 @@
           "type": "File",
           "artifact": {
             "size": 121,
-            "MD5": "e6a2491cfa99c4163942c19eb7b4c489",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/profiles/default.cfg",
             "path": "config/xaero/lib/profiles/default.cfg"
           }
@@ -2706,7 +2565,6 @@
           "type": "File",
           "artifact": {
             "size": 75,
-            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/lib/server_profiles/default.cfg",
             "path": "config/xaero/lib/server_profiles/default.cfg"
           }
@@ -2717,7 +2575,6 @@
           "type": "File",
           "artifact": {
             "size": 237,
-            "MD5": "007c3c38290561126c7f8ab797406109",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/client.cfg",
             "path": "config/xaero/minimap/client.cfg"
           }
@@ -2728,7 +2585,6 @@
           "type": "File",
           "artifact": {
             "size": 147,
-            "MD5": "48d56532be92f58e976a2d1753abdd35",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/common.cfg",
             "path": "config/xaero/minimap/common.cfg"
           }
@@ -2739,7 +2595,6 @@
           "type": "File",
           "artifact": {
             "size": 5531,
-            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/default_radar_categories_client.json",
             "path": "config/xaero/minimap/default_radar_categories_client.json"
           }
@@ -2750,7 +2605,6 @@
           "type": "File",
           "artifact": {
             "size": 4597,
-            "MD5": "7ffe568a308241b93166af2d45ce79c7",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/default_radar_categories_server.json",
             "path": "config/xaero/minimap/default_radar_categories_server.json"
           }
@@ -2761,7 +2615,6 @@
           "type": "File",
           "artifact": {
             "size": 3825,
-            "MD5": "39b36f582769dd7ea8222f60f7059302",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/profiles/default.cfg",
             "path": "config/xaero/minimap/profiles/default.cfg"
           }
@@ -2772,7 +2625,6 @@
           "type": "File",
           "artifact": {
             "size": 684,
-            "MD5": "64d98932063f0be723920fbdb1de1268",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
             "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
           }
@@ -2783,7 +2635,6 @@
           "type": "File",
           "artifact": {
             "size": 75,
-            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/minimap/server_profiles/default.cfg",
             "path": "config/xaero/minimap/server_profiles/default.cfg"
           }
@@ -2794,7 +2645,6 @@
           "type": "File",
           "artifact": {
             "size": 523,
-            "MD5": "4d8ab9ac6252be924192222be2565546",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/client.cfg",
             "path": "config/xaero/world-map/client.cfg"
           }
@@ -2805,7 +2655,6 @@
           "type": "File",
           "artifact": {
             "size": 141,
-            "MD5": "b5ddb993fe4200e02fec18254463b2c2",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/common.cfg",
             "path": "config/xaero/world-map/common.cfg"
           }
@@ -2816,7 +2665,6 @@
           "type": "File",
           "artifact": {
             "size": 1619,
-            "MD5": "21c979a028cd1efa4cc914ceca5b54b9",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/profiles/default.cfg",
             "path": "config/xaero/world-map/profiles/default.cfg"
           }
@@ -2827,7 +2675,6 @@
           "type": "File",
           "artifact": {
             "size": 75,
-            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaero/world-map/server_profiles/default.cfg",
             "path": "config/xaero/world-map/server_profiles/default.cfg"
           }
@@ -2838,7 +2685,6 @@
           "type": "File",
           "artifact": {
             "size": 123,
-            "MD5": "2f87c54b0b2e85e6a5031171284d6f31",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaerohud.txt",
             "path": "config/xaerohud.txt"
           }
@@ -2849,7 +2695,6 @@
           "type": "File",
           "artifact": {
             "size": 0,
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/xaeropatreon.txt",
             "path": "config/xaeropatreon.txt"
           }
@@ -2860,7 +2705,6 @@
           "type": "File",
           "artifact": {
             "size": 250,
-            "MD5": "9378f7cef65c5208431350700cf83a11",
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/yacl.json5",
             "path": "config/yacl.json5"
           }

@@ -15,7 +15,7 @@ const CONFIG = {
   serverAddress: 'create.kinetichosting.gg',
   serverName: 'PokeVillage',
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.3',             // bump when distribution changes
+  serverVersion: '1.0.4',             // bump when distribution changes
   // Server-only mods (environment: server) must NOT be shipped to clients — put them on the server.
   excludeMods: ['pokevillage-0.1.0.jar'],
   mcVersion: '1.21.1',
@@ -26,6 +26,30 @@ const CONFIG = {
   versionManifestMD5: 'b53ec01e703f1447e2cf4b5f5d495200',
   // Resourcepacks listed here are treated as optional (required:false, off by default).
   optionalResourcepacks: ['Pokemusic-Enviroment v3.0 COBLEMON.zip'],
+  // Configs the PLAYER owns — keybinds, volumes, minimap, video settings.
+  // These ship without an MD5, exactly like options.txt: Helios seeds the default once and
+  // then never touches the file again. Declaring an MD5 here is what silently reverted
+  // players' voicechat keybinds on every launch — Helios re-downloads any file whose local
+  // hash drifted, and "the player changed a setting" is indistinguishable from "stale file".
+  // Anything NOT matched keeps its MD5 and stays synced with the pack.
+  seedOnceConfigs: [
+    /^config\/voicechat\//,
+    /^config\/xaero/,
+    /^config\/sodium[-.]/,
+    /^config\/iris/,
+    /^config\/fabric\//,
+    /\/client[-.]?[^/]*\.(json|json5|cfg|toml|properties|snbt)$/,
+    /-client\.(json|json5|cfg|toml|properties|snbt)$/,
+    /^config\/(MouseTweaks\.cfg|modmenu\.json|yacl\.json5|notenoughanimations\.json)$/,
+    /^config\/(chat_heads|appleskin|talkingheads|ReactiveMusic)\.json5?$/,
+    /^config\/(transition|trender)\.json$/,
+    /^config\/wover\/cached\.json$/,
+    /^config\/cobbledex\/settings\.json$/,
+    /^config\/cobblemon_snap\/storage\.json$/,
+    /^config\/fancymenu\/(options\.txt|user_variables\.db|legacy_checklist\.txt)$/,
+  ],
+  // Configs belonging to mods the pack no longer ships (JEI was replaced by REI in v1.0.3).
+  excludeConfigs: [/^config\/jei\//],
 }
 // -----------------------------------------------------
 
@@ -110,10 +134,16 @@ const modModules = mods.filter((m) => !(CONFIG.excludeMods || []).includes(m.nam
 // ---- config/** -> File (managed, from repo raw, folder structure preserved) ----
 // ---- resourcepacks/* -> File (from Release; big/optional per CONFIG) ----
 // ---- options.txt / servers.dat -> File (seed once: no MD5) ----
-const fileModules = extra.map((e) => {
+const isSeedOnce = (p) => CONFIG.seedOnceConfigs.some((re) => re.test(p))
+const isExcluded = (p) => CONFIG.excludeConfigs.some((re) => re.test(p))
+
+const fileModules = extra.filter((e) => !isExcluded(e.path)).map((e) => {
   const base = { id: `pokevillage.files:${slug(e.path)}:1.0.0`, name: e.path, type: 'File' }
   if (e.category === 'config') {
-    return { ...base, artifact: { size: e.size, MD5: e.md5, url: `${rawBase}/${enc(e.path)}`, path: e.path } }
+    const url = `${rawBase}/${enc(e.path)}`
+    return isSeedOnce(e.path)
+      ? { ...base, artifact: { size: e.size, url, path: e.path } }
+      : { ...base, artifact: { size: e.size, MD5: e.md5, url, path: e.path } }
   }
   if (e.category === 'resourcepack') {
     const fname = e.path.replace(/^resourcepacks\//, '')
