@@ -565,6 +565,12 @@
   },
   {
     "category": "config",
+    "path": "config/resourcepackoverrides.json",
+    "size": 1712,
+    "md5": "c0e729e92ee8857d9828ac71e3409004"
+  },
+  {
+    "category": "config",
     "path": "config/simpletms/main.json",
     "size": 1224,
     "md5": "4513643eeee510192347ad0a06e159c4"
@@ -864,10 +870,16 @@
     "md5": "b2098ce8510801405479d530dcfc9266"
   },
   {
+    "category": "resourcepack",
+    "path": "resourcepacks/PokeVillage-Music-v4.zip",
+    "size": 13752416,
+    "md5": "cdcace1c188c8a702ff5d12a4610eb3d"
+  },
+  {
     "category": "root",
     "path": "options.txt",
-    "size": 9211,
-    "md5": "c36142f6422e76e1bce49caa9c35a666"
+    "size": 9274,
+    "md5": "ab640c9e46bf7ba88df894b1a79373ad"
   },
   {
     "category": "root",

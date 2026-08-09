@@ -12,7 +12,7 @@
       "name": "PokeVillage",
       "description": "포켓빌리지 서버",
       "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "address": "create.kinetichosting.gg",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -1114,6 +1114,17 @@
             "MD5": "89dac4248b76747800fbc00fa063825e",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/resourcefullib-fabric-1.21-3.0.12.jar",
             "path": "resourcefullib-fabric-1.21-3.0.12.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ResourcePackOverrides-v21.1.0-1.21.1-Fabric:1.0.0",
+          "name": "ResourcePackOverrides-v21.1.0-1.21.1-Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80827,
+            "MD5": "a4a05891e061eba03472755073777d8c",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+            "path": "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar"
           }
         },
         {
@@ -2237,6 +2248,17 @@
           }
         },
         {
+          "id": "pokevillage.files:config_resourcepackoverrides:1.0.0",
+          "name": "config/resourcepackoverrides.json",
+          "type": "File",
+          "artifact": {
+            "size": 1712,
+            "MD5": "c0e729e92ee8857d9828ac71e3409004",
+            "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/config/resourcepackoverrides.json",
+            "path": "config/resourcepackoverrides.json"
+          }
+        },
+        {
           "id": "pokevillage.files:config_simpletms_main:1.0.0",
           "name": "config/simpletms/main.json",
           "type": "File",
@@ -2758,11 +2780,22 @@
           }
         },
         {
+          "id": "pokevillage.files:resourcepacks_PokeVillage-Music-v4:1.0.0",
+          "name": "resourcepacks/PokeVillage-Music-v4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 13752416,
+            "MD5": "cdcace1c188c8a702ff5d12a4610eb3d",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/PokeVillage-Music-v4.zip",
+            "path": "resourcepacks/PokeVillage-Music-v4.zip"
+          }
+        },
+        {
           "id": "pokevillage.files:options:1.0.0",
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 9211,
+            "size": 9274,
             "url": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/options.txt",
             "path": "options.txt"
           }

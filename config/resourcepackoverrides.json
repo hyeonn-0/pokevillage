@@ -1,0 +1,58 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "cobblemon:gyaradosjump",
+    "cobblemon:regionbiasforms",
+    "file/Cobblemotion_v1.5.1.zip",
+    "file/Battle Tracks v1.2.zip",
+    "file/Cobblemon Interface v1.6.0.zip",
+    "file/PokeVillage-Music-v4.zip"
+  ],
+  "pack_overrides": {
+    "file/PokeVillage-Music-v4.zip": {
+      "title": "\"§e§l포켓빌리지 배경음악\"",
+      "description": "\"§a✔ 커스텀 BGM\n§7바닐라 음악 무음 처리\"",
+      "default_position": "TOP"
+    },
+    "file/Cobblemon Interface v1.6.0.zip": {
+      "title": "\"§e§lCobblemon Interface\"",
+      "description": "\"§a✔ 포켓몬 테마 GUI\n§f© §3VinnyStalck\""
+    },
+    "file/Battle Tracks v1.2.zip": {
+      "title": "\"§e§lBattle Tracks\"",
+      "description": "\"§a✔ 배틀 BGM\""
+    },
+    "file/Cobblemotion_v1.5.1.zip": {
+      "title": "\"§e§lCobbleMotion\"",
+      "description": "\"§a✔ 포켓몬 애니메이션 추가\n§f© §3Lenka\"",
+      "force_compatible": true
+    },
+    "file/Pokemusic-Enviroment v3.0 COBLEMON.zip": {
+      "title": "\"§6§lPokemusic Environment §7(선택)\"",
+      "description": "\"§e⚠ 포켓빌리지 배경음악과 충돌합니다\n§7둘 중 하나만 켜세요\""
+    },
+    "vanilla": {
+      "title": "\"§e§l기본\"",
+      "hidden": true
+    },
+    "fabric": {
+      "title": "\"§e§lFabric Mods\"",
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "musicnotification:dark_mode": {
+      "hidden": true
+    }
+  },
+  "default_overrides": {
+    "force_compatible": true
+  }
+}

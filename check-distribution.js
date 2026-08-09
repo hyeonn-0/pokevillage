@@ -45,6 +45,10 @@ const MUST_BE_SYNCED = [
   'config/terralith.json',
   'config/fancymenu/customization/menu_layout.txt',
   'config/rctmod-server.toml',
+  // Which packs are force-enabled lives here, NOT in options.txt. options.txt has to stay
+  // seed-once to protect keybinds, so this file is the only channel that can turn a pack on
+  // for players who already have an install.
+  'config/resourcepackoverrides.json',
 ]
 
 // JEI was replaced by REI in v1.0.3 — its configs must not ship any more.

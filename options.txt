@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","cobblemon:gyaradosjump","cobblemon:regionbiasforms","file/Battle Tracks v1.2.zip","file/Cobblemon Interface v1.6.0.zip"]
+resourcePacks:["vanilla","fabric","cobblemon:gyaradosjump","cobblemon:regionbiasforms","file/Cobblemotion_v1.5.1.zip","file/Battle Tracks v1.2.zip","file/Cobblemon Interface v1.6.0.zip","file/PokeVillage-Music-v4.zip"]
 incompatibleResourcePacks:["appleskin","cobbledgacha","jei","mr_extra_moveanimscobblemon","talkingheads","terrablender","terralith","toms_storage","xaerolib","xaerominimap","xaeroworldmap","yet_another_config_lib_v3"]
 lastServer:
 lang:ko_kr

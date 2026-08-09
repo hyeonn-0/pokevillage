@@ -460,6 +460,11 @@
         "md5":  "89dac4248b76747800fbc00fa063825e"
     },
     {
+        "name":  "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+        "size":  80827,
+        "md5":  "a4a05891e061eba03472755073777d8c"
+    },
+    {
         "name":  "RoughlyEnoughItems-16.0.799-fabric.jar",
         "size":  2451799,
         "md5":  "8a011fbf376cc4350743274bfd16d3cf"
