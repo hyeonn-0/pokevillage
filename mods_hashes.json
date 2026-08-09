@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "name":  "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
         "size":  1095802,
@@ -25,6 +25,11 @@
         "md5":  "a549af3b3a32722ab81ff11d9f44f90b"
     },
     {
+        "name":  "BadOptimizations-2.4.1-1.21.1.jar",
+        "size":  283566,
+        "md5":  "59ee243a5ccd09fff1dd2879b3cad72a"
+    },
+    {
         "name":  "bclib-21.0.13.jar",
         "size":  1486843,
         "md5":  "dea2b315841d5a8167980f39ff3ba526"
@@ -48,6 +53,16 @@
         "name":  "cardinal-components-api-6.1.3.jar",
         "size":  229645,
         "md5":  "8febe13b1c2df1e90a6fa8b5de8521a4"
+    },
+    {
+        "name":  "catchindicator-fabric-1.7.0.jar",
+        "size":  318477,
+        "md5":  "9dca57ba58776552413eb5bd6d3888c3"
+    },
+    {
+        "name":  "catchrate-display-fabric-2.8.22.jar",
+        "size":  260470,
+        "md5":  "c179e5ff4c5fa735bbcedd0f4fadf2dd"
     },
     {
         "name":  "chat_heads-0.15.2-fabric-1.21.jar",
@@ -95,14 +110,14 @@
         "md5":  "33f8d1f400b2f85827e241efb5668dda"
     },
     {
-        "name":  "Cobblemon-fabric-1.7.3+1.21.1.jar",
-        "size":  135801550,
-        "md5":  "1de64f280372ec94e4376976fb579d52"
+        "name":  "cobblemon_snap-fabric-1.1.3.jar",
+        "size":  4947119,
+        "md5":  "ff41384a357952c199086c210c5330af"
     },
     {
-        "name":  "cobblemon-farmers-delight-compat-1.1.0.jar",
-        "size":  202832,
-        "md5":  "2ac37e2aafcf6cb72ee4d2a54f11c030"
+        "name":  "cobblemon-additions-4.1.6.jar",
+        "size":  1961229,
+        "md5":  "73fd17cc59f38c1e03a1b2a37d7252af"
     },
     {
         "name":  "cobblemonbattleplus-1.1.7.jar",
@@ -115,6 +130,16 @@
         "md5":  "61763aa68bcb7ce0e3f623f5ee6c08a2"
     },
     {
+        "name":  "Cobblemon-fabric-1.7.3+1.21.1.jar",
+        "size":  135801550,
+        "md5":  "1de64f280372ec94e4376976fb579d52"
+    },
+    {
+        "name":  "cobblemon-farmers-delight-compat-1.1.0.jar",
+        "size":  202832,
+        "md5":  "2ac37e2aafcf6cb72ee4d2a54f11c030"
+    },
+    {
         "name":  "CobblemonIntros-1.0.0.jar",
         "size":  13961,
         "md5":  "5cc4feb85aaed11d2e06def513c29d34"
@@ -125,14 +150,14 @@
         "md5":  "30283db43eee22f57df10d52a39323e6"
     },
     {
-        "name":  "cobblemon_snap-fabric-1.1.3.jar",
-        "size":  4947119,
-        "md5":  "ff41384a357952c199086c210c5330af"
-    },
-    {
         "name":  "cobblenav-fabric-2.3.3.jar",
         "size":  1090821,
         "md5":  "efbc5e5e05966cfd45f94ea0f8591cf2"
+    },
+    {
+        "name":  "Cobbreeding-fabric-2.2.2.jar",
+        "size":  475560,
+        "md5":  "c8b8d36e66af37edf4711632bb82da36"
     },
     {
         "name":  "cobeffectiveness-fabric-0.3.jar",
@@ -145,9 +170,24 @@
         "md5":  "b6a6cf3b4f4ed2ee7c2b3806f8bee599"
     },
     {
+        "name":  "configurable-3.5.2+1.21.1-fabric.jar",
+        "size":  545247,
+        "md5":  "c82791281f26785531f82c0913967b58"
+    },
+    {
         "name":  "CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar",
         "size":  1247692,
         "md5":  "df9871e46436ce7887579037d5074b9a"
+    },
+    {
+        "name":  "Debugify-1.21.1+1.0.jar",
+        "size":  292202,
+        "md5":  "604cf2f99be0b208a3354783f5b56fa2"
+    },
+    {
+        "name":  "entityculling-fabric-1.10.5-mc1.21.1.jar",
+        "size":  1595131,
+        "md5":  "833cb8fd661a52acf63856d22e45f832"
     },
     {
         "name":  "extra-move-anims-cobblemon-1.7v1.0.2.jar",
@@ -178,6 +218,16 @@
         "name":  "FarmersDelight-1.21.1-3.3.3+refabricated.jar",
         "size":  3240212,
         "md5":  "0a509a64f871c958ab659fa684ea10c4"
+    },
+    {
+        "name":  "ferritecore-7.0.3-fabric.jar",
+        "size":  123450,
+        "md5":  "b8513c8c3eef01ea1117ed8d8cba060d"
+    },
+    {
+        "name":  "fightorflight-fabric-0.10.9.jar",
+        "size":  1424525,
+        "md5":  "8dc714c8c95f504a3c2176834288a979"
     },
     {
         "name":  "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
@@ -225,19 +275,24 @@
         "md5":  "4ae4f2fe6a71eaeeade3ce0eb1db7997"
     },
     {
+        "name":  "ImmediatelyFast-Fabric-1.6.11+1.21.1.jar",
+        "size":  336763,
+        "md5":  "ff2f33b4f400d9ccf3bc6e160246b101"
+    },
+    {
         "name":  "iris-fabric-1.8.8+mc1.21.1.jar",
         "size":  2690177,
         "md5":  "1179fe09b9ba970e84ed59259adfe65a"
     },
     {
-        "name":  "jei-1.21.1-fabric-19.27.0.336.jar",
-        "size":  1561528,
-        "md5":  "b4988fdc0d53bc418d6285e4b3d4bf16"
-    },
-    {
         "name":  "konkrete_fabric_1.9.9_MC_1.21.jar",
         "size":  786695,
         "md5":  "287ee9cfc6015f706672fd8c20f5ef9c"
+    },
+    {
+        "name":  "krypton-0.2.8.jar",
+        "size":  161045,
+        "md5":  "9ba3d734dac0e59deb4721f2f23c65ad"
     },
     {
         "name":  "legendarymonuments-fabric-1.21.1-8.0.3.jar",
@@ -275,6 +330,11 @@
         "md5":  "464fba7941a41f89c991658038bc0933"
     },
     {
+        "name":  "lithium-fabric-0.15.4+mc1.21.1.jar",
+        "size":  797454,
+        "md5":  "6fd6783640f42130f041b50cca2d3be6"
+    },
+    {
         "name":  "lithostitched-1.7.13-fabric-21.1.jar",
         "size":  827470,
         "md5":  "1654f22b58c0aa48ec1620d85f2d87e6"
@@ -290,9 +350,24 @@
         "md5":  "0f1bfbf2dd4fa047a1616fc448f3b856"
     },
     {
+        "name":  "modernfix-fabric-5.25.1+mc1.21.1.jar",
+        "size":  471258,
+        "md5":  "17260c894041b7b4a1b1f2fd1a8f1a8b"
+    },
+    {
         "name":  "modmenu-11.0.4.jar",
         "size":  973059,
         "md5":  "b2b9c53a887c100f780708c4f36db6c4"
+    },
+    {
+        "name":  "MoreCobblemonTweaks-fabric-1.3.3.jar",
+        "size":  137626,
+        "md5":  "8c9e870b8dc446ffdc98d106f65da075"
+    },
+    {
+        "name":  "moreculling-fabric-1.21.1-1.0.8.jar",
+        "size":  332100,
+        "md5":  "6aedbcb1811e58e1b357e9a9d98c1eae"
     },
     {
         "name":  "MouseTweaks-fabric-mc1.21-2.26.jar",
@@ -305,9 +380,24 @@
         "md5":  "834973489f5cd619accf1f74ee301c0f"
     },
     {
+        "name":  "neruina-3.3.3+1.21.1-fabric.jar",
+        "size":  860092,
+        "md5":  "db817a6db200bafb884e87899d4dfb74"
+    },
+    {
         "name":  "notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
         "size":  1948132,
         "md5":  "6afb17a78bec2140a3904dcd6d1a3d92"
+    },
+    {
+        "name":  "notenoughcrashes-fabric-4.4.9+1.21.1.jar",
+        "size":  601087,
+        "md5":  "635fe76b795c2d91f9a6c4bc436e5266"
+    },
+    {
+        "name":  "Only Bottle Caps-1.3.0.jar",
+        "size":  250451,
+        "md5":  "2380d10d347cf1c18dfdf9eec429f599"
     },
     {
         "name":  "owo-lib-0.12.15.4+1.21.jar",
@@ -315,9 +405,24 @@
         "md5":  "3627aee17111e12a8c66928f5d7a3fba"
     },
     {
+        "name":  "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+        "size":  46623,
+        "md5":  "8f22fb065079340a72ae5ce0da12efcb"
+    },
+    {
+        "name":  "pastureLoot-1.0.5+1.21.1.jar",
+        "size":  45871,
+        "md5":  "ef3ebf8d082e4af1fb6f54524e8c1f70"
+    },
+    {
         "name":  "placeholder-api-2.4.2+1.21.jar",
         "size":  232325,
         "md5":  "4de8568a088a276c94168514d625413d"
+    },
+    {
+        "name":  "pokeblocks-1.4.0-1.21.1.jar",
+        "size":  1606467,
+        "md5":  "a576344a9af471b67b47437adcdd2a63"
     },
     {
         "name":  "PokemonToItem-fabric-0.2.0.jar",
@@ -355,6 +460,21 @@
         "md5":  "89dac4248b76747800fbc00fa063825e"
     },
     {
+        "name":  "RoughlyEnoughItems-16.0.799-fabric.jar",
+        "size":  2451799,
+        "md5":  "8a011fbf376cc4350743274bfd16d3cf"
+    },
+    {
+        "name":  "SafePastures-1.1.1+1.21.1.jar",
+        "size":  16518,
+        "md5":  "af5597adebbfad7f73c01e118d93bf97"
+    },
+    {
+        "name":  "ScalableLux-0.1.0.1+fabric.d0d58ab-all.jar",
+        "size":  177266,
+        "md5":  "34cb60a3db0f2439db221bc3325c1411"
+    },
+    {
         "name":  "SimpleTMs-fabric-2.3.3.jar",
         "size":  821382,
         "md5":  "9a9d474ca102e1d04fa89926fa837896"
@@ -363,6 +483,16 @@
         "name":  "sodium-fabric-0.6.13+mc1.21.1.jar",
         "size":  1297761,
         "md5":  "aa37ba0048a1af6b554b137088cad484"
+    },
+    {
+        "name":  "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+        "size":  321213,
+        "md5":  "8dbb0c4c8c1c9f00faeb68fa74ee6d27"
+    },
+    {
+        "name":  "supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+        "size":  206993,
+        "md5":  "fff83455887d85c6f7ebac7bba24fa8f"
     },
     {
         "name":  "talking-heads-1.1.3+1.21.1+fabric.jar",

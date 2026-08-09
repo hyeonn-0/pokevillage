@@ -15,7 +15,7 @@ const CONFIG = {
   serverAddress: 'create.kinetichosting.gg',
   serverName: 'PokeVillage',
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.2',             // bump when distribution changes
+  serverVersion: '1.0.3',             // bump when distribution changes
   // Server-only mods (environment: server) must NOT be shipped to clients — put them on the server.
   excludeMods: ['pokevillage-0.1.0.jar'],
   mcVersion: '1.21.1',
@@ -53,18 +53,27 @@ const mavenToPath = (name) => {
   return `${g.replace(/\./g, '/')}/${a}/${v}/${a}-${v}.jar`
 }
 const fabricManifest = readJson(`fabric-${CONFIG.fabricLoader}-${CONFIG.mcVersion}.json`)
+// Some libs in the Fabric profile JSON ship without size/md5 (e.g. intermediary). Helios needs a
+// size for the download-progress calc — a null size renders as "null%". Fill known gaps here.
+// (values from the actual maven jar: curl <url> | stat -c%s / md5sum)
+const LIB_OVERRIDES = {
+  'net.fabricmc:intermediary:1.21.1': { size: 657725, md5: '850be48a3406b9efdf8e64b1c2db97f8' },
+}
 const fabricLibModules = fabricManifest.libraries
   .filter((l) => !l.name.startsWith('net.fabricmc:fabric-loader:')) // the parent Fabric module IS the loader
-  .map((l) => ({
-    id: l.name,
-    name: l.name.split(':')[1],
-    type: 'Library',
-    artifact: {
-      size: l.size,
-      MD5: l.md5,
-      url: (l.url || 'https://maven.fabricmc.net/') + mavenToPath(l.name),
-    },
-  }))
+  .map((l) => {
+    const ov = LIB_OVERRIDES[l.name] || {}
+    return {
+      id: l.name,
+      name: l.name.split(':')[1],
+      type: 'Library',
+      artifact: {
+        size: l.size ?? ov.size,
+        MD5: l.md5 ?? ov.md5,
+        url: (l.url || 'https://maven.fabricmc.net/') + mavenToPath(l.name),
+      },
+    }
+  })
 
 const fabricModule = {
   id: `net.fabricmc:fabric-loader:${CONFIG.fabricLoader}`,

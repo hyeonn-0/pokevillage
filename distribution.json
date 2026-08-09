@@ -12,7 +12,7 @@
       "name": "PokeVillage",
       "description": "포켓빌리지 서버",
       "icon": "https://raw.githubusercontent.com/hyeonn-0/pokevillage/main/icon.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "create.kinetichosting.gg",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -108,6 +108,8 @@
               "name": "intermediary",
               "type": "Library",
               "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
                 "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
               }
             }
@@ -169,6 +171,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:BadOptimizations-2.4.1-1.21.1:1.0.0",
+          "name": "BadOptimizations-2.4.1-1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 283566,
+            "MD5": "59ee243a5ccd09fff1dd2879b3cad72a",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/BadOptimizations-2.4.1-1.21.1.jar",
+            "path": "BadOptimizations-2.4.1-1.21.1.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:bclib-21.0.13:1.0.0",
           "name": "bclib-21.0.13",
           "type": "FabricMod",
@@ -221,6 +234,28 @@
             "MD5": "8febe13b1c2df1e90a6fa8b5de8521a4",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cardinal-components-api-6.1.3.jar",
             "path": "cardinal-components-api-6.1.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:catchindicator-fabric-1.7.0:1.0.0",
+          "name": "catchindicator-fabric-1.7.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 318477,
+            "MD5": "9dca57ba58776552413eb5bd6d3888c3",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/catchindicator-fabric-1.7.0.jar",
+            "path": "catchindicator-fabric-1.7.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:catchrate-display-fabric-2.8.22:1.0.0",
+          "name": "catchrate-display-fabric-2.8.22",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 260470,
+            "MD5": "c179e5ff4c5fa735bbcedd0f4fadf2dd",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/catchrate-display-fabric-2.8.22.jar",
+            "path": "catchrate-display-fabric-2.8.22.jar"
           }
         },
         {
@@ -323,25 +358,25 @@
           }
         },
         {
-          "id": "pokevillage.mods:Cobblemon-fabric-1.7.3+1.21.1:1.0.0",
-          "name": "Cobblemon-fabric-1.7.3+1.21.1",
+          "id": "pokevillage.mods:cobblemon_snap-fabric-1.1.3:1.0.0",
+          "name": "cobblemon_snap-fabric-1.1.3",
           "type": "FabricMod",
           "artifact": {
-            "size": 135801550,
-            "MD5": "1de64f280372ec94e4376976fb579d52",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
-            "path": "Cobblemon-fabric-1.7.3+1.21.1.jar"
+            "size": 4947119,
+            "MD5": "ff41384a357952c199086c210c5330af",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon_snap-fabric-1.1.3.jar",
+            "path": "cobblemon_snap-fabric-1.1.3.jar"
           }
         },
         {
-          "id": "pokevillage.mods:cobblemon-farmers-delight-compat-1.1.0:1.0.0",
-          "name": "cobblemon-farmers-delight-compat-1.1.0",
+          "id": "pokevillage.mods:cobblemon-additions-4.1.6:1.0.0",
+          "name": "cobblemon-additions-4.1.6",
           "type": "FabricMod",
           "artifact": {
-            "size": 202832,
-            "MD5": "2ac37e2aafcf6cb72ee4d2a54f11c030",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon-farmers-delight-compat-1.1.0.jar",
-            "path": "cobblemon-farmers-delight-compat-1.1.0.jar"
+            "size": 1961229,
+            "MD5": "73fd17cc59f38c1e03a1b2a37d7252af",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon-additions-4.1.6.jar",
+            "path": "cobblemon-additions-4.1.6.jar"
           }
         },
         {
@@ -367,6 +402,28 @@
           }
         },
         {
+          "id": "pokevillage.mods:Cobblemon-fabric-1.7.3+1.21.1:1.0.0",
+          "name": "Cobblemon-fabric-1.7.3+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135801550,
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+            "path": "Cobblemon-fabric-1.7.3+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:cobblemon-farmers-delight-compat-1.1.0:1.0.0",
+          "name": "cobblemon-farmers-delight-compat-1.1.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 202832,
+            "MD5": "2ac37e2aafcf6cb72ee4d2a54f11c030",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon-farmers-delight-compat-1.1.0.jar",
+            "path": "cobblemon-farmers-delight-compat-1.1.0.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:CobblemonIntros-1.0.0:1.0.0",
           "name": "CobblemonIntros-1.0.0",
           "type": "FabricMod",
@@ -389,17 +446,6 @@
           }
         },
         {
-          "id": "pokevillage.mods:cobblemon_snap-fabric-1.1.3:1.0.0",
-          "name": "cobblemon_snap-fabric-1.1.3",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 4947119,
-            "MD5": "ff41384a357952c199086c210c5330af",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblemon_snap-fabric-1.1.3.jar",
-            "path": "cobblemon_snap-fabric-1.1.3.jar"
-          }
-        },
-        {
           "id": "pokevillage.mods:cobblenav-fabric-2.3.3:1.0.0",
           "name": "cobblenav-fabric-2.3.3",
           "type": "FabricMod",
@@ -408,6 +454,17 @@
             "MD5": "efbc5e5e05966cfd45f94ea0f8591cf2",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/cobblenav-fabric-2.3.3.jar",
             "path": "cobblenav-fabric-2.3.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Cobbreeding-fabric-2.2.2:1.0.0",
+          "name": "Cobbreeding-fabric-2.2.2",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 475560,
+            "MD5": "c8b8d36e66af37edf4711632bb82da36",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Cobbreeding-fabric-2.2.2.jar",
+            "path": "Cobbreeding-fabric-2.2.2.jar"
           }
         },
         {
@@ -433,6 +490,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:configurable-3.5.2+1.21.1-fabric:1.0.0",
+          "name": "configurable-3.5.2+1.21.1-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 545247,
+            "MD5": "c82791281f26785531f82c0913967b58",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/configurable-3.5.2%2B1.21.1-fabric.jar",
+            "path": "configurable-3.5.2+1.21.1-fabric.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:CreativeCore_FABRIC_v2.13.39_mc1.21.1:1.0.0",
           "name": "CreativeCore_FABRIC_v2.13.39_mc1.21.1",
           "type": "FabricMod",
@@ -441,6 +509,28 @@
             "MD5": "df9871e46436ce7887579037d5074b9a",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar",
             "path": "CreativeCore_FABRIC_v2.13.39_mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Debugify-1.21.1+1.0:1.0.0",
+          "name": "Debugify-1.21.1+1.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 292202,
+            "MD5": "604cf2f99be0b208a3354783f5b56fa2",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Debugify-1.21.1%2B1.0.jar",
+            "path": "Debugify-1.21.1+1.0.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:entityculling-fabric-1.10.5-mc1.21.1:1.0.0",
+          "name": "entityculling-fabric-1.10.5-mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1595131,
+            "MD5": "833cb8fd661a52acf63856d22e45f832",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/entityculling-fabric-1.10.5-mc1.21.1.jar",
+            "path": "entityculling-fabric-1.10.5-mc1.21.1.jar"
           }
         },
         {
@@ -507,6 +597,28 @@
             "MD5": "0a509a64f871c958ab659fa684ea10c4",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/FarmersDelight-1.21.1-3.3.3%2Brefabricated.jar",
             "path": "FarmersDelight-1.21.1-3.3.3+refabricated.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ferritecore-7.0.3-fabric:1.0.0",
+          "name": "ferritecore-7.0.3-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ferritecore-7.0.3-fabric.jar",
+            "path": "ferritecore-7.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:fightorflight-fabric-0.10.9:1.0.0",
+          "name": "fightorflight-fabric-0.10.9",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1424525,
+            "MD5": "8dc714c8c95f504a3c2176834288a979",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/fightorflight-fabric-0.10.9.jar",
+            "path": "fightorflight-fabric-0.10.9.jar"
           }
         },
         {
@@ -609,6 +721,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:ImmediatelyFast-Fabric-1.6.11+1.21.1:1.0.0",
+          "name": "ImmediatelyFast-Fabric-1.6.11+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 336763,
+            "MD5": "ff2f33b4f400d9ccf3bc6e160246b101",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ImmediatelyFast-Fabric-1.6.11%2B1.21.1.jar",
+            "path": "ImmediatelyFast-Fabric-1.6.11+1.21.1.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:iris-fabric-1.8.8+mc1.21.1:1.0.0",
           "name": "iris-fabric-1.8.8+mc1.21.1",
           "type": "FabricMod",
@@ -620,17 +743,6 @@
           }
         },
         {
-          "id": "pokevillage.mods:jei-1.21.1-fabric-19.27.0.336:1.0.0",
-          "name": "jei-1.21.1-fabric-19.27.0.336",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1561528,
-            "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
-            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/jei-1.21.1-fabric-19.27.0.336.jar",
-            "path": "jei-1.21.1-fabric-19.27.0.336.jar"
-          }
-        },
-        {
           "id": "pokevillage.mods:konkrete_fabric_1.9.9_MC_1.21:1.0.0",
           "name": "konkrete_fabric_1.9.9_MC_1.21",
           "type": "FabricMod",
@@ -639,6 +751,17 @@
             "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/konkrete_fabric_1.9.9_MC_1.21.jar",
             "path": "konkrete_fabric_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:krypton-0.2.8:1.0.0",
+          "name": "krypton-0.2.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161045,
+            "MD5": "9ba3d734dac0e59deb4721f2f23c65ad",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/krypton-0.2.8.jar",
+            "path": "krypton-0.2.8.jar"
           }
         },
         {
@@ -719,6 +842,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:lithium-fabric-0.15.4+mc1.21.1:1.0.0",
+          "name": "lithium-fabric-0.15.4+mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797454,
+            "MD5": "6fd6783640f42130f041b50cca2d3be6",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+            "path": "lithium-fabric-0.15.4+mc1.21.1.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:lithostitched-1.7.13-fabric-21.1:1.0.0",
           "name": "lithostitched-1.7.13-fabric-21.1",
           "type": "FabricMod",
@@ -752,6 +886,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:modernfix-fabric-5.25.1+mc1.21.1:1.0.0",
+          "name": "modernfix-fabric-5.25.1+mc1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+            "path": "modernfix-fabric-5.25.1+mc1.21.1.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:modmenu-11.0.4:1.0.0",
           "name": "modmenu-11.0.4",
           "type": "FabricMod",
@@ -760,6 +905,28 @@
             "MD5": "b2b9c53a887c100f780708c4f36db6c4",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/modmenu-11.0.4.jar",
             "path": "modmenu-11.0.4.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:MoreCobblemonTweaks-fabric-1.3.3:1.0.0",
+          "name": "MoreCobblemonTweaks-fabric-1.3.3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 137626,
+            "MD5": "8c9e870b8dc446ffdc98d106f65da075",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/MoreCobblemonTweaks-fabric-1.3.3.jar",
+            "path": "MoreCobblemonTweaks-fabric-1.3.3.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:moreculling-fabric-1.21.1-1.0.8:1.0.0",
+          "name": "moreculling-fabric-1.21.1-1.0.8",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 332100,
+            "MD5": "6aedbcb1811e58e1b357e9a9d98c1eae",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/moreculling-fabric-1.21.1-1.0.8.jar",
+            "path": "moreculling-fabric-1.21.1-1.0.8.jar"
           }
         },
         {
@@ -785,6 +952,17 @@
           }
         },
         {
+          "id": "pokevillage.mods:neruina-3.3.3+1.21.1-fabric:1.0.0",
+          "name": "neruina-3.3.3+1.21.1-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 860092,
+            "MD5": "db817a6db200bafb884e87899d4dfb74",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/neruina-3.3.3%2B1.21.1-fabric.jar",
+            "path": "neruina-3.3.3+1.21.1-fabric.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:notenoughanimations-fabric-1.12.4-mc1.21.1:1.0.0",
           "name": "notenoughanimations-fabric-1.12.4-mc1.21.1",
           "type": "FabricMod",
@@ -793,6 +971,28 @@
             "MD5": "6afb17a78bec2140a3904dcd6d1a3d92",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
             "path": "notenoughanimations-fabric-1.12.4-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:notenoughcrashes-fabric-4.4.9+1.21.1:1.0.0",
+          "name": "notenoughcrashes-fabric-4.4.9+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 601087,
+            "MD5": "635fe76b795c2d91f9a6c4bc436e5266",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/notenoughcrashes-fabric-4.4.9%2B1.21.1.jar",
+            "path": "notenoughcrashes-fabric-4.4.9+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:Only_Bottle_Caps-1.3.0:1.0.0",
+          "name": "Only Bottle Caps-1.3.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 250451,
+            "MD5": "2380d10d347cf1c18dfdf9eec429f599",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/Only.Bottle.Caps-1.3.0.jar",
+            "path": "Only Bottle Caps-1.3.0.jar"
           }
         },
         {
@@ -807,6 +1007,28 @@
           }
         },
         {
+          "id": "pokevillage.mods:packetfixer-3.3.1-1.20.5-1.21.X-merged:1.0.0",
+          "name": "packetfixer-3.3.1-1.20.5-1.21.X-merged",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 46623,
+            "MD5": "8f22fb065079340a72ae5ce0da12efcb",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+            "path": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:pastureLoot-1.0.5+1.21.1:1.0.0",
+          "name": "pastureLoot-1.0.5+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 45871,
+            "MD5": "ef3ebf8d082e4af1fb6f54524e8c1f70",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/pastureLoot-1.0.5%2B1.21.1.jar",
+            "path": "pastureLoot-1.0.5+1.21.1.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:placeholder-api-2.4.2+1.21:1.0.0",
           "name": "placeholder-api-2.4.2+1.21",
           "type": "FabricMod",
@@ -815,6 +1037,17 @@
             "MD5": "4de8568a088a276c94168514d625413d",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/placeholder-api-2.4.2%2B1.21.jar",
             "path": "placeholder-api-2.4.2+1.21.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:pokeblocks-1.4.0-1.21.1:1.0.0",
+          "name": "pokeblocks-1.4.0-1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1606467,
+            "MD5": "a576344a9af471b67b47437adcdd2a63",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/pokeblocks-1.4.0-1.21.1.jar",
+            "path": "pokeblocks-1.4.0-1.21.1.jar"
           }
         },
         {
@@ -884,6 +1117,39 @@
           }
         },
         {
+          "id": "pokevillage.mods:RoughlyEnoughItems-16.0.799-fabric:1.0.0",
+          "name": "RoughlyEnoughItems-16.0.799-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2451799,
+            "MD5": "8a011fbf376cc4350743274bfd16d3cf",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/RoughlyEnoughItems-16.0.799-fabric.jar",
+            "path": "RoughlyEnoughItems-16.0.799-fabric.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:SafePastures-1.1.1+1.21.1:1.0.0",
+          "name": "SafePastures-1.1.1+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16518,
+            "MD5": "af5597adebbfad7f73c01e118d93bf97",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/SafePastures-1.1.1%2B1.21.1.jar",
+            "path": "SafePastures-1.1.1+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:ScalableLux-0.1.0.1+fabric.d0d58ab-all:1.0.0",
+          "name": "ScalableLux-0.1.0.1+fabric.d0d58ab-all",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 177266,
+            "MD5": "34cb60a3db0f2439db221bc3325c1411",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar",
+            "path": "ScalableLux-0.1.0.1+fabric.d0d58ab-all.jar"
+          }
+        },
+        {
           "id": "pokevillage.mods:SimpleTMs-fabric-2.3.3:1.0.0",
           "name": "SimpleTMs-fabric-2.3.3",
           "type": "FabricMod",
@@ -903,6 +1169,28 @@
             "MD5": "aa37ba0048a1af6b554b137088cad484",
             "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
             "path": "sodium-fabric-0.6.13+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:StackDeobfuscatorFabric-1.4.3+08e71cc:1.0.0",
+          "name": "StackDeobfuscatorFabric-1.4.3+08e71cc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 321213,
+            "MD5": "8dbb0c4c8c1c9f00faeb68fa74ee6d27",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+            "path": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar"
+          }
+        },
+        {
+          "id": "pokevillage.mods:supermartijn642configlib-1.1.8-fabric-mc1.21:1.0.0",
+          "name": "supermartijn642configlib-1.1.8-fabric-mc1.21",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 206993,
+            "MD5": "fff83455887d85c6f7ebac7bba24fa8f",
+            "url": "https://github.com/hyeonn-0/pokevillage/releases/download/modpack-v1/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+            "path": "supermartijn642configlib-1.1.8-fabric-mc1.21.jar"
           }
         },
         {
