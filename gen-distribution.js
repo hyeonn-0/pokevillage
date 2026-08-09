@@ -18,7 +18,7 @@ const CONFIG = {
   // a brand new server and re-download everything into a fresh directory, so the branding
   // change above deliberately stops at the display name.
   serverId: 'PokeVillage-1.21.1',
-  serverVersion: '1.0.6',             // bump when distribution changes
+  serverVersion: '1.0.7',             // bump when distribution changes
   // Server-only mods (environment: server) must NOT be shipped to clients — put them on the server.
   excludeMods: ['pokevillage-0.1.0.jar'],
   mcVersion: '1.21.1',
